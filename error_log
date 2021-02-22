@@ -1,0 +1,231 @@
+[06-Nov-2020 06:39:17 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/lwt/public_html/phreshfarm/storage/framework/views/bd33f507db5c2356ee45054703c32dc3a139a11c.php on line 580
+[06-Nov-2020 09:09:09 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/lwt/public_html/phreshfarm/storage/framework/views/bd33f507db5c2356ee45054703c32dc3a139a11c.php on line 190
+[06-Nov-2020 09:10:01 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/lwt/public_html/phreshfarm/storage/framework/views/bd33f507db5c2356ee45054703c32dc3a139a11c.php on line 190
+[07-Nov-2020 11:02:10 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/lwt/public_html/phreshfarm/app/Http/Controllers/AgentControllers/AgentController.php on line 120
+[23-Nov-2020 09:14:12 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Auth\LoginController::index() in /home/lwt/public_html/phreshfarm/app/Http/Controllers/Auth/LoginController.php on line 63
+[23-Nov-2020 16:57:38 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\HomeController::resend_mail_verification_investor() in /home/lwt/public_html/phreshfarm/app/Http/Controllers/HomeController.php on line 276
+[09-Dec-2020 05:51:23 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/lwt/public_html/phreshfarm/app/Helpers/Helper.php on line 41
+[09-Dec-2020 06:47:30 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/lwt/public_html/phreshfarm/app/Http/Controllers/TransactionController.php on line 176
+[10-Dec-2020 19:29:17 UTC] PHP Fatal error:  Cannot use App\User_investment as User_investment because the name is already in use in /home/lwt/public_html/phreshfarm/app/Http/Controllers/InvestorControllers/InvestorController.php on line 21
+[10-Dec-2020 19:29:19 UTC] PHP Fatal error:  Cannot use App\User_investment as User_investment because the name is already in use in /home/lwt/public_html/phreshfarm/app/Http/Controllers/InvestorControllers/InvestorController.php on line 21
+[10-Dec-2020 19:29:20 UTC] PHP Fatal error:  Cannot use App\User_investment as User_investment because the name is already in use in /home/lwt/public_html/phreshfarm/app/Http/Controllers/InvestorControllers/InvestorController.php on line 21
+[14-Dec-2020 07:51:02 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:51:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:51:22 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:51:25 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:51:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:51:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:51:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:52:05 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:52:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:52:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:52:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:52:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:52:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:52:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:52:48 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:53:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:53:51 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:53:53 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:53:54 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:55:23 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:55:25 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:55:27 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:55:36 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:55:42 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:55:44 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[14-Dec-2020 07:56:07 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('view')
+#1 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('view')
+#2 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 /home/lwt/public_html/phreshfarm/vendor/laravel/framework/ in /home/lwt/public_html/phreshfarm/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[21-Dec-2020 06:13:54 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/lwt/public_html/phreshfarm/app/Http/Controllers/TransactionController.php on line 76
+[21-Dec-2020 06:15:24 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/lwt/public_html/phreshfarm/app/Http/Controllers/TransactionController.php on line 229
+[25-Dec-2020 01:51:32 UTC] PHP Warning:  require(/home/phreshfarms/invest/public/../invest/vendor/autoload.php): failed to open stream: No such file or directory in /home/phreshfarms/invest/public/index.php on line 24
+[25-Dec-2020 01:51:32 UTC] PHP Warning:  require(/home/phreshfarms/invest/public/../invest/vendor/autoload.php): failed to open stream: No such file or directory in /home/phreshfarms/invest/public/index.php on line 24
+[25-Dec-2020 01:51:32 UTC] PHP Fatal error:  require(): Failed opening required '/home/phreshfarms/invest/public/../invest/vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/phreshfarms/invest/public/index.php on line 24
+[25-Dec-2020 01:51:38 UTC] PHP Warning:  require(/home/phreshfarms/invest/public/../invest/vendor/autoload.php): failed to open stream: No such file or directory in /home/phreshfarms/invest/public/index.php on line 24
+[25-Dec-2020 01:51:38 UTC] PHP Warning:  require(/home/phreshfarms/invest/public/../invest/vendor/autoload.php): failed to open stream: No such file or directory in /home/phreshfarms/invest/public/index.php on line 24
+[25-Dec-2020 01:51:38 UTC] PHP Fatal error:  require(): Failed opening required '/home/phreshfarms/invest/public/../invest/vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/phreshfarms/invest/public/index.php on line 24
+[25-Dec-2020 01:51:40 UTC] PHP Warning:  require(/home/phreshfarms/invest/public/../invest/vendor/autoload.php): failed to open stream: No such file or directory in /home/phreshfarms/invest/public/index.php on line 24
+[25-Dec-2020 01:51:40 UTC] PHP Warning:  require(/home/phreshfarms/invest/public/../invest/vendor/autoload.php): failed to open stream: No such file or directory in /home/phreshfarms/invest/public/index.php on line 24
+[25-Dec-2020 01:51:40 UTC] PHP Fatal error:  require(): Failed opening required '/home/phreshfarms/invest/public/../invest/vendor/autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/phreshfarms/invest/public/index.php on line 24
+[04-Jan-2021 07:55:33 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/phreshfarms/invest/app/Http/Controllers/InvestorControllers/InvestorController.php on line 3

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+        
+        <link href="{{ url('public/assets/css/main.css') }}" rel="stylesheet" type="text/css" />
+        <title>Print History</title>
+        
+        <style>
+            
+        </style>
+    </head>
+    <body style="width:100px;">
+        <div class="print-history-pdf">
+            <div class="overlap-group">
+              <img
+                class="email-temp-ate-logo-1"
+                src="{{ url('public/assets/images/history_image/v1_3.png') }}"
+              />
+              <h1 class="investment-history valign-text-middle border-class-1 roboto-regular-normal-black-24px">
+                Investment History
+              </h1>
+            </div>
+            <div class="auto-flex">
+              <div class="first-name-last-name valign-text-middle border-class-1 roboto-regular-normal-black-16px">
+                {{ Auth::user()->name}}  {{ Auth::user()->lastname}} 
+              </div>
+              <p class="text-7 valign-text-middle border-class-1 roboto-regular-normal-black-12px">
+                From: {{  Carbon\Carbon::parse($start_date)->format('d M Y') }} - {{  Carbon\Carbon::parse($end_date)->format('d M Y') }}     
+              </p>
+            </div>
+            <div class="auto-flex1">
+              <div class="investor-id valign-text-middle border-class-1 roboto-regular-normal-black-14px">Investor ID:{{ Auth::id()}}</div>
+              <div class="text- valign-text-middle border-class-1 roboto-regular-normal-black-13px">
+                Total Amount Invested: ₦{{number_format($investmentHistory->sum('pack_price'),2,'.',',')}}
+              </div>
+            </div>
+            <div class="auto-flex2">
+              <div class="text-6 valign-text-middle border-class-1 roboto-regular-normal-black-12px">
+                Closing Balance: ₦{{ number_format(Auth::user()->wallet->balance,2,'.',',')}}
+              </div>
+              <div class="text- valign-text-middle border-class-1 roboto-regular-normal-black-13px">Total ROI:  ₦{{number_format($investmentHistory->sum('roi_amount'),2,'.',',')}}</div>
+            </div>
+            
+            
+            
+            <div class="frame-13">
+             <table>
+                 <thead>
+                     <th>Item</th>
+                     <th>Investment Date</th>
+                     <th>Due Date</th>
+                     <th>ROI (%)</th>
+                     <th>Packs</th>
+                     <th>ROI Amount</th>
+                 </thead>
+
+                 <tbody>
+                     
+                     @if(count($investmentHistory) > 0 )
+                     @foreach($investmentHistory as $row)
+                     <tr>
+                         <td>{{ $row->subcategory->subcategory_name}}</td>
+                         <td>{{  Carbon\Carbon::parse($row->start_date)->format('d M Y') }}</td>
+                         <td>{{  Carbon\Carbon::parse($row->end_date)->format('d M Y') }}</td>
+                         <td>{{ $row->roi }}%</td>
+                         <td>{{ $row->pack->pack_name }}</td>
+                         <td>₦{{ number_format($row->roi_amount,2,'.',',') }}</td>
+                     </tr>
+                     @endforeach
+
+                   @endif
+                 </tbody>
+             </table>
+            </div>
+            
+            
+            
+            
+            
+            <p class="address valign-text-middle border-class-1 roboto-regular-normal-black-11px">
+              Phresh Farms is a product of Phresh Farms Limited. <br />(Registration number RC 1603626)<br />All rights reserved.
+              <br />15A, Adebajo street, Kongi, Bodija, Ibadan, Nigeria.
+            </p>
+          </div></body></html>

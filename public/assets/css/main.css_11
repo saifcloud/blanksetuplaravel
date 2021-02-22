@@ -1,0 +1,825 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+
+table td, th {
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+}
+
+th{
+  flex-shrink: 0;
+    height: 45px;
+    letter-spacing: 0px;
+    line-height: normal;
+    min-height: 14px;
+    text-align: left;
+    width: 79px;
+    font-size: 12px;
+    vertical-align: middle;
+    align-items: center;
+    padding-left: 5px;
+}
+
+td{
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 31px;
+  text-align: left;
+  width: 91px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 10px 0;
+  padding-left: 5px;
+}
+
+thead{background: #f2f2f2;}
+
+.print-history-pdf {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 660px;
+  justify-content: flex-start;
+  padding: 15px 45px;
+  width: 595px;
+  margin: auto;
+}
+.print-history-pdf .address {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 52px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 0px;
+  margin-top: 30px;
+  min-height: 52px;
+  text-align: center;
+  width: 372px;
+}
+.print-history-pdf .auto-flex {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 22px;
+  justify-content: flex-start;
+  margin-left: 1px;
+  margin-top: 7px;
+  min-width: 492px;
+  width: auto;
+}
+.print-history-pdf .auto-flex1 {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 35px;
+  justify-content: flex-start;
+  margin-left: 1px;
+  margin-top: 20px;
+  min-width: 492px;
+  width: auto;
+}
+.print-history-pdf .auto-flex2 {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 35px;
+  justify-content: flex-start;
+  margin-left: 1px;
+  margin-top: 10px;
+  min-width: 492px;
+  width: auto;
+}
+.print-history-pdf .beryl {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 31px;
+  text-align: left;
+  width: 46px;
+}
+.print-history-pdf .beryl-1 {
+  align-self: flex-start;
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 2px;
+  margin-top: 22px;
+  min-height: 14px;
+  min-width: 29px;
+  text-align: left;
+  width: auto;
+}
+.print-history-pdf .beryl-2 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 14px;
+  min-height: 31px;
+  text-align: left;
+  width: 46px;
+}
+.print-history-pdf .cashew-processing {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 14px;
+  min-height: 31px;
+  text-align: left;
+  width: 79px;
+}
+.print-history-pdf .cassava-processing {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 14px;
+  min-height: 31px;
+  text-align: left;
+  width: 79px;
+}
+.print-history-pdf .date {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 31px;
+  text-align: left;
+  width: 87px;
+}
+.print-history-pdf .date-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 14px;
+  min-height: 31px;
+  text-align: left;
+  width: 87px;
+}
+.print-history-pdf .date-2 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 22px;
+  min-height: 14px;
+  text-align: left;
+  width: 87px;
+}
+.print-history-pdf .date-3 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 22px;
+  min-height: 31px;
+  text-align: left;
+  width: 87px;
+}
+.print-history-pdf .date-4 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 31px;
+  text-align: left;
+  width: 79px;
+}
+.print-history-pdf .date-5 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 14px;
+  min-height: 31px;
+  text-align: left;
+  width: 79px;
+}
+.print-history-pdf .date-6 {
+  align-self: flex-start;
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 2px;
+  margin-top: 22px;
+  min-height: 14px;
+  min-width: 65px;
+  text-align: left;
+  width: auto;
+}
+.print-history-pdf .date-7 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 22px;
+  min-height: 31px;
+  text-align: left;
+  width: 79px;
+}
+.print-history-pdf .date-8 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 14px;
+  min-height: 31px;
+  text-align: left;
+  width: 79px;
+}
+.print-history-pdf .dravite {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 14px;
+  min-height: 31px;
+  text-align: left;
+  width: 46px;
+}
+.print-history-pdf .due-date {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 0px;
+  min-height: 270px;
+  width: 91px;
+}
+.print-history-pdf .due-date-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 14px;
+  text-align: left;
+  width: 79px;
+}
+.print-history-pdf .email-temp-ate-logo-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 33px;
+  margin-top: 1.5px;
+  width: 135px;
+}
+.print-history-pdf .first-name-last-name {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 19px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 19px;
+  text-align: left;
+  width: 243px;
+}
+.print-history-pdf .frame-1 {
+  align-items: flex-end;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-top: 0px;
+  min-height: 225px;
+  padding: 7px 5px;
+  width: 91px;
+}
+.print-history-pdf .frame-10 {
+  align-items: center;
+  background-color: var(--concrete);
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 45px;
+  justify-content: flex-end;
+  min-width: 99px;
+  padding: 0 5px;
+  width: auto;
+}
+.print-history-pdf .frame-10-1 {
+  align-items: center;
+  background-color: var(--concrete);
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 45px;
+  justify-content: flex-end;
+  min-width: 91px;
+  padding: 0 5px;
+  width: auto;
+}
+.print-history-pdf .frame-10-2 {
+  align-items: center;
+  background-color: var(--concrete);
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 45px;
+  justify-content: flex-end;
+  min-width: 59px;
+  padding: 0 5px;
+  width: auto;
+}
+.print-history-pdf .frame-10-3 {
+  align-items: center;
+  background-color: var(--concrete);
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 45px;
+  justify-content: flex-end;
+  min-width: 58px;
+  padding: 0 5px;
+  width: auto;
+}
+.print-history-pdf .frame-10-4 {
+  align-items: center;
+  background-color: var(--concrete);
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 45px;
+  justify-content: flex-end;
+  min-width: 104px;
+  padding: 0 5px;
+  width: auto;
+}
+.print-history-pdf .frame-13 {
+  align-items: flex-start;
+  align-self: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 270px;
+  justify-content: flex-start;
+  margin-top: 22px;
+  min-width: 502px;
+  width: auto;
+}
+.print-history-pdf .frame-15 {
+  align-items: flex-end;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-top: 0px;
+  min-height: 225px;
+  padding: 7px 5px;
+  width: 99px;
+}
+.print-history-pdf .frame-17 {
+  align-items: flex-end;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-top: 0px;
+  min-height: 225px;
+  padding: 7px 5px;
+  width: 59px;
+}
+.print-history-pdf .frame-18 {
+  align-items: flex-end;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-top: 0px;
+  min-height: 225px;
+  padding: 7px 5px;
+  width: 58px;
+}
+.print-history-pdf .frame-19 {
+  align-items: flex-end;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-top: 0px;
+  min-height: 225px;
+  padding: 7px 5px;
+  width: 104px;
+}
+.print-history-pdf .inv-date {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 0px;
+  min-height: 270px;
+  width: 99px;
+}
+.print-history-pdf .investment-date {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 28px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 28px;
+  text-align: left;
+  width: 87px;
+}
+.print-history-pdf .investment-history {
+  align-self: flex-end;
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 28px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 117px;
+  min-height: 28px;
+  text-align: right;
+  width: 235px;
+}
+.print-history-pdf .investor-id {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 16px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 16px;
+  text-align: left;
+  width: 243px;
+}
+.print-history-pdf .item {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 270px;
+  width: 91px;
+}
+.print-history-pdf .item-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 14px;
+  text-align: left;
+  width: 79px;
+}
+.print-history-pdf .n120000 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 31px;
+  text-align: left;
+  width: 92px;
+}
+.print-history-pdf .n145000 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 14px;
+  min-height: 31px;
+  text-align: left;
+  width: 92px;
+}
+.print-history-pdf .n150000 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 22px;
+  min-height: 31px;
+  text-align: left;
+  width: 92px;
+}
+.print-history-pdf .n160000 {
+  align-self: flex-start;
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 2px;
+  margin-top: 22px;
+  min-height: 14px;
+  min-width: 54px;
+  text-align: left;
+  width: auto;
+}
+.print-history-pdf .n480000 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-right: 6px;
+  margin-top: 14px;
+  min-height: 31px;
+  text-align: left;
+  width: 86px;
+}
+.print-history-pdf .onyx {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 22px;
+  min-height: 31px;
+  text-align: left;
+  width: 46px;
+}
+.print-history-pdf .overlap-group {
+  align-items: flex-start;
+  align-self: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 64px;
+  justify-content: flex-end;
+  min-width: 502px;
+  padding: 8.5px 5px;
+  width: auto;
+}
+.print-history-pdf .packs {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 0px;
+  min-height: 270px;
+  width: 58px;
+}
+.print-history-pdf .packs-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 14px;
+  text-align: left;
+  width: 46px;
+}
+.print-history-pdf .pepper {
+  align-self: flex-start;
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 2px;
+  margin-top: 22px;
+  min-height: 14px;
+  min-width: 40px;
+  text-align: left;
+  width: auto;
+}
+.print-history-pdf .roi {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 0px;
+  min-height: 270px;
+  width: 59px;
+}
+.print-history-pdf .roi-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 14px;
+  text-align: left;
+  width: 47px;
+}
+.print-history-pdf .roi-amount {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 0px;
+  min-height: 270px;
+  width: 104px;
+}
+.print-history-pdf .roi-amount-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 14px;
+  text-align: left;
+  width: 92px;
+}
+.print-history-pdf .text- {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 35px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 10px;
+  min-height: 35px;
+  text-align: right;
+  width: 239px;
+}
+.print-history-pdf .text--1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 14px;
+  min-height: 31px;
+  text-align: left;
+  width: 47px;
+}
+.print-history-pdf .text-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 31px;
+  text-align: left;
+  width: 47px;
+}
+.print-history-pdf .text-3 {
+  align-self: flex-start;
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 2px;
+  margin-top: 22px;
+  min-height: 14px;
+  min-width: 25px;
+  text-align: left;
+  width: auto;
+}
+.print-history-pdf .text-4 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 22px;
+  min-height: 31px;
+  text-align: left;
+  width: 47px;
+}
+.print-history-pdf .text-6 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 14px;
+  text-align: left;
+  width: 243px;
+}
+.print-history-pdf .text-7 {
+  align-self: flex-end;
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 14px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 10px;
+  min-height: 14px;
+  text-align: right;
+  width: 239px;
+}
+.print-history-pdf .tomatoes {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 22px;
+  min-height: 31px;
+  text-align: left;
+  width: 79px;
+}
+.print-history-pdf .yam-processing {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 31px;
+  text-align: left;
+  width: 79px;
+}
+.roboto-regular-normal-black-11px {
+  color: black;
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-black-12px {
+  color: black;
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-black-13px {
+  color: black;
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-black-14px {
+  color: black;
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-black-16px {
+  color: black;
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-black-24px {
+  color: black;
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --concrete: rgba(242, 242, 242, 1);
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

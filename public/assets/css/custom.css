@@ -1,0 +1,3372 @@
+body{
+    overflow: hidden !important;
+}
+
+.table td, .table th {
+    font-family: "poppins";
+}
+
+.mainmenu-area{
+    position: absolute;
+}
+
+.navbar-brand h3{
+	margin: 0;
+    color: #fff;
+    font-weight: 900;
+}
+
+.navbar-brand h3{
+    color: #fff;
+}
+
+.mainmenu-area .navbar .navbar-brand img {
+    height: auto;
+    max-width: 180px;
+}
+
+.alert-danger {
+    background-color: #ff606e;
+}
+
+.alert-danger p{
+    color: #fff !important;
+}
+
+.alert-success {
+    background-color: #4a6e0f;
+}
+
+.alert-success p{
+    color: #fff !important;
+}
+
+/*//////////////////////////////////// agriculture //////////////////////*/
+
+#main-banner{
+    padding-top: 65px !important;
+    background: #142314;
+}
+
+ 
+.content-area{padding: 60px 0 0;}
+
+
+
+.main-banner h5 span{
+    color: #c0ff00;
+    font-weight: 600;
+}
+
+.main-banner .left-content .content h3{
+    color: #fff;
+}
+
+
+.custom-control-input:checked~.custom-control-label::before{
+    color: #fff;
+    border-color: #0f9831;
+    background-color: #0f9831;
+}
+
+/*///////////// new css 15oct ///////////*/
+
+
+		
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    position: fixed;
+    right: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+	background: transparent;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin-top: 220px;
+    z-index: 1;
+    margin-left: 0%;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    background: #EBEFD3;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+#sidebar-wrapper ul .base-btn2{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    margin: 10px 0;
+    margin-left: 30px;
+    color: #fff;
+    font-family: "poppins";
+    padding: 6px 0;
+    line-height: 1.7;
+    cursor: pointer;
+}
+
+
+
+.sidebar-nav li:last-child{
+    border-bottom: none;
+}
+
+.sidebar-nav li a {
+	line-height: 26px;
+    font-size: 16px;
+    position: relative;
+    padding: 10px 0px;
+    transition: all linear 0.3s;
+	font-family: "poppins";
+	color: #000;
+}
+
+.sidebar-nav li i{
+    color: #fff;
+    margin-right: 10px;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+    border: none;
+}
+
+.sidebar-brand > .navbar-brand{
+	padding-left: 0
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        position: relative;
+        padding-top: 90px;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+
+.copyright_area{
+	padding: 24px 0px 25px;
+    background: #0e4119;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+.copyright_area .left-area p {
+    transition: 0.2s all ease-in-out 0s;
+}
+.copyright_area .left-area p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#page-area-wrapper{
+    padding: 60px 0;
+}
+
+.breadcrumb-area{
+    padding: 60px 0;
+}
+
+.header .mainmenu-area{
+    padding: 12px 0;
+}
+
+.sidebar-profile-brand .profile-brand img{
+    width: 100%;
+    max-width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar-profile-brand{
+    padding-left: 15px;
+    border-bottom: none !important;
+}
+
+.sidebar-profile-brand h5,p{
+    color: #000;
+}
+
+.sidebar-profile-brand h5{
+    margin-top: 15px;
+}
+
+.wallet-rapper .card{
+    background: #d2d2d2;
+}
+
+.new-btn{
+    padding: 5px;
+    background: #0f9831;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "poppins";
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+.new-btn:hover{
+    color: #fff;
+}
+
+.wallet-rapper .card .card-content{
+    margin: 30px 0;
+}
+
+.wallet-rapper .card {
+    text-align: center;
+    padding: 30px;
+    min-height: 120px;
+    max-width: 420px;
+    margin: auto;
+    border: 2px solid #888;
+    border-radius: 0;
+}
+
+.table-card{
+    background: #262F19;
+    padding: 25px 20px;
+    color: #fff;
+}
+
+.table-card table thead th,.table-card table tbody td{
+    color: #fff;
+}
+.table-card table thead th{
+    border: none;
+}
+
+.table-card table tbody td{
+    border-bottom: 1px solid #dee2e6;
+}
+
+.wallet_ul ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wallet_ul ul li{
+    display: inline-block;
+    font-family: "poppins";
+    line-height: 1.7;
+}
+
+.wallet_ul ul li i{
+    color: #5acc00;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.wallet_ul ul li:first-child{
+    margin-right: 20px;
+}
+
+.table-card h4{
+    text-align: center;
+    color: #FFFFFF87;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.invest_area_new{
+    padding: 0 0 60px;
+}
+
+.investment_admin{
+    padding: 30px;
+    background: #E9E9E9;
+}
+
+.invest_card{
+    position: relative;
+    background:  linear-gradient(to bottom, rgba(1, 88, 55, 0.986), rgba(10, 80, 1, 0.73)),
+    url('../images/admin/bg_shape.png')center no-repeat;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.invest_img img{
+    max-width: 120px;
+    border-radius: 50%;
+}
+
+.invest_content{
+    padding: 20px 0;
+}
+
+.invest_content h3,p{
+    color: #fff;
+}
+
+.invest_btn button{
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+    font-family: "poppins";
+    
+}
+
+.invest_h1{
+    color: #000;
+    font-family: "poppins";
+    font-size: 42px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.invest_h3{
+    color: #104c1f;
+    font-family: "poppins";
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+#page-full-wrapper {
+    position: relative;
+    padding-top: 90px;
+    min-height: 100vh;
+}
+
+.profileedit-area .form-control{
+    background-color: transparent;
+    padding: 20px 10px;
+    color: #555;
+    font-size: 16px;
+}
+
+.profileedit-area{
+    padding: 60px;
+}
+
+.edit-profile a button{
+    background: #0e4119;
+    color: #ffffff;
+}
+
+.edit-profile a button:hover{
+    color: #fff;
+    background: #0e4119;
+    border-color: #0e4119;
+}
+
+.edit-profile a button:active,.edit-profile a button:focus{
+    color: #0e4119;
+    background: transparent;
+    border-radius: 50px;
+    outline: none;
+}
+
+.profileedit-area .form-control:active,.profileedit-area .form-control:focus{
+    border-color: #0e4119;
+}
+
+.profile-area .profile-content {
+    padding-bottom: 5px;
+}
+
+
+/* //////////// login ///////////// */
+
+.login-wrapper{
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgb(0, 0, 0)),url('../images/admin/login.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    background-position: inherit;
+    padding: 80px 0 10px !important;
+}
+
+.login-card_wrapper{
+    position: relative;
+    display: block;
+    width: auto;
+    max-width: 500px;
+    margin-left: auto;
+    background: linear-gradient(to bottom, rgb(10, 27, 9), rgb(10 21 11 / 62%)),url('../images/admin/bg_shape.png') center no-repeat !important;
+}
+
+/*16oct*/
+
+.page_section_wrapper h3{
+    font-family: "poppins";
+    padding: 0px 0 20px;
+}
+
+.referral_card_area{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border: none;
+}
+
+
+/* //////////////////////////////// Phresh farm 17 oct New css start here ////////////////////////////////////////////////////// */
+
+.main_pf{
+    background: url('../images/phreshfarm_img/dash-shape.png')bottom no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    position: relative;
+}
+
+.topbar_area_pf{
+    background: rgba(0,0,0,.7);
+}
+
+.topbar_area_pf .navbar{
+    padding: 0 40px;
+}
+
+.topbar_area_pf .nav-item{
+    position: relative;
+}
+
+.topbar_area_pf .nav-item span:first-child{
+    color: #fff;
+    font-family: "poppins";
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.topbar_area_pf .nav-item span .dropdown-toggle {
+    white-space: nowrap;
+    color: #fff;
+    font-size: 18px;
+}
+
+.topbar_area_pf .nav-item .bars_pf i{
+    font-size: 36px;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.page-content-wrapper{
+    position: relative;
+    padding-top: 40px;
+    background: transparent;
+    max-width: 920px;
+    margin: auto;
+}
+
+/* tab css start */
+
+.pf_tab_one{
+    background: #c6fe7f;
+    min-height: 550px;
+    height: 100%;
+    border-radius: 0px;
+    position: relative;
+}
+
+.pf_tab_one ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pf_tab_one ul li{
+    display: inline-block;
+    font-size: 22px;
+    padding: 15px 0;
+    cursor: pointer;
+    background: #0000009e;
+    min-width: auto !important;
+}
+
+.pf_tab_one ul li:last-child{
+    text-align: right;
+}
+
+.pf_tab_one li span{
+    color: #fff;
+    font-family: "poppins";
+    padding: 0 20px;
+}
+
+
+/* inner tab css */
+
+.pf_inner_tab_one{
+   background: linear-gradient(to bottom, rgb(255 255 255 / 78%), rgb(255 255 255 / 94%)), url('../images/phreshfarm_img/4.png');
+    position: absolute;
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    right: 40px;
+    min-height: 320px;
+    box-shadow: 1px 0px 6px 1px #00000045;
+}
+
+.pf_invest_cont{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.pf_invest_cont h5{
+    color: #2bb673;
+    max-width: 95%;
+}
+
+.one_second_cont h5{
+    color: #2bb673;
+}  
+
+.pf_btn{
+    background: #1d3b2d;
+    color: #8dc63f;
+    min-width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    font-family: "Avenir 03",sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.pf_btn:hover{
+    color: #8dc63f;
+    box-shadow: 0 16px 39px -10px rgba(0,0,0,.54);
+}
+
+
+.pf_invest_top{
+    background: #8dc63f;
+    position: relative;
+    padding: 25px 30px 0;
+    min-height: 220px;
+}
+
+.pf_invest_top::before{
+    background: url('../images/phreshfarm_img/graph-green-1.webp') center no-repeat;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    bottom: 30px;
+}
+
+.pf_invest_top h5{
+    color: #fff;
+    width: 180px;
+}
+
+.pf_invest_top p{
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "poppins";
+    margin-top: 95px;
+    position: relative;
+}
+
+.pf_invest_bottom::before{
+    display: none;
+}
+.pf_invest_bottom{
+    background: #2bb673;
+}
+
+.pf_invest_bottom span{
+    padding: 20px 0;
+    color: #000;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: "poppins";
+}
+
+.pf_invest_bottom .pf_btn{
+    background: #fff;
+    color: #2bb673;
+    margin: 25px 0;
+}
+
+.sidebar-nav .active{
+    border-radius: 10px;
+    color: #fff;
+    background: #004e02;
+}
+
+
+.sidebar-nav .active span p{
+    color: #fff;
+}
+
+.sidebar-nav .active span i{
+    color: #fff;
+}
+
+.sidebar-nav li span{
+    
+    width: 80%;
+    display: block;
+    padding: 0 0;
+    margin: 0 15px;
+}
+
+.sidebar-nav li span p{
+       color: #004e02;
+    margin-left: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.sidebar-nav li i{
+    float: left;
+ /*   background: -webkit-gradient(linear, left top, left bottom, from(rgb(10 26 19)), to(rgb(87 240 24)));*/
+	/*-webkit-background-clip: text;*/
+	/*-webkit-text-fill-color: transparent;*/
+    font-size: 20px;
+    color: #004e02;
+}
+
+
+.pf_tab_one .pf_active span{
+    color: #000;
+    position: relative;
+}
+
+.pf_tab_one .pf_active{
+    background: transparent;
+}
+
+.pf_tab_one .pf_active span::before{
+    content: "";
+    width: 30px;
+    height: 4px;
+    position: absolute;
+    background: #000;
+    bottom: -8px;
+}
+
+
+.one_second_cont{
+    text-align: center;
+    padding: 15px 0;
+    background: #f1f2f2;
+    margin: 20px;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+}
+
+.one_second_cont p{
+    font-size: 12px;
+    color: #000;
+    margin: 10px;
+    font-family: "poppins";
+}
+.second_invest_top{min-height: 280px;}
+.second_invest_top::before{
+    display: none;
+}
+
+.second_invest_top span{
+    display: block;
+    width: 100%;
+    color: #f8f8f8b4;
+    font-size: 12px;
+    font-family: "poppins";
+}
+
+.second_invest_top p{
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "poppins";
+    margin-top: 10px;
+}
+
+.second_invest_bottom{
+    border-radius: 0;
+    min-height: 170px;
+}
+
+.second_invest_bottom::before{
+    background: url('../images/phreshfarm_img/graph-green-2.webp') center no-repeat;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    bottom: 30px;
+}
+
+/* ///////// 3rd tab css ////////// */
+
+.pd-form{
+    margin: 85px 0 0;
+    padding: 0 40px;
+}
+
+.pd-form h6{
+    padding: 13px 20px;
+    background: #caf3e06b;
+    border-radius: 5px;
+}
+
+.pd-form h6 span{font-weight: 400;}
+
+.pd-form .pf_btn{
+    background: #a7a9ac;
+    color: #fff;
+}
+
+.code_share{
+    padding: 30px 40px;
+    padding-top: 15px;
+}
+
+.code_share ul{
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.code_share ul li{
+    display: inline-block;
+    margin: 0 12px;
+    background: transparent;
+    margin-top: 5px;
+    padding: 0;
+}
+.code_share ul li:first-child{
+    margin-left: 0;
+}
+
+.code_share ul li span{
+    background: transparent;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.code_share ul li span i{
+    margin-right: 5px;
+}
+
+.pf_percent{
+    padding: 0px 40px;
+    padding-bottom: 5px;
+}
+
+.pf_percent p{
+    color: #0f9831;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.pf_percent h2{
+    color: #0f9831;
+    font-weight: 600;
+    text-align: right;
+}
+
+.pf_percent h6{
+    color: #000;
+    font-weight: 400;
+    text-align: left;
+    padding: 40px 20px 0;
+}
+
+.pf_referal_btm{
+    padding: 15px 40px;
+}
+
+.pf_referal_btm p{
+    color: #000;
+    font-family: "poppins";
+    font-size: 14px;
+}
+
+.referral_invite_side{
+    padding: 30px 40px;
+}
+
+.referral_invite_side p{
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #f8f8f8;
+    position: relative;
+}
+
+.referral_invite_side h5{
+    position: relative;
+    font-size: 24px;
+}
+
+/* ////////////////// profile css ///////// */
+
+.profile_pf_Sec{
+    padding: 25px 60px;
+    height: 445px;
+    overflow-y: scroll;
+    padding-bottom: 0px;
+}
+
+.profile_pf_Sec h3{
+    color: #104c1f;
+}
+.profile_pf_Sec label{
+    color: #104c1f;
+    font-family: "poppins";
+    font-weight: 600;
+}
+
+.profile_pf_Sec .form-control{
+    color: #000;
+    background: #ddfeb0;
+    border: 1px solid #ddfeb0;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "poppins";
+}
+
+.profile_pf_Sec .form-control:active,.profile_pf_Sec .form-control:focus{
+    border-color: #8dc63f;
+    box-shadow: none;
+}
+
+.pf_profile_btm{
+    border-top: 2px solid #999;
+    text-align: right;
+    padding: 10px 0;
+}
+
+.pf_profile_btm p{
+    font-size: 12px;
+}
+/* ///////////// investiment history sec ////////////// */
+.pf_inv_history_Sec{
+    padding: 0 40px;
+    min-height: 440px;
+}
+
+.pf_invest_history{
+    margin: 20px 0px;
+    padding: 25px 30px;
+    text-align: left;
+    min-height: 175px;
+}
+
+.pf_invest_history p {
+    margin: 0;
+}
+
+/* //////////////// side menu animation css /////////////// */
+
+.side_animation_wrapper{
+    position: fixed;
+    display: block;
+    width: 100%;
+    max-width: 340px;
+    height: 100%;
+    background: #fff;
+    left: 0;
+    z-index: 999999;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    -webkit-transition: left .5s ease;
+    transition: left .5s ease;
+    min-height: 100%;
+    bottom: 0;
+}
+
+.side_menu_list{
+    margin-top: 15px;
+}
+
+.side_menu_list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 70px;
+    border-bottom: 2px solid #b7b6b6;
+}
+
+
+.side_menu_list ul li{
+    padding: 15px 0;
+    color: #104c1f;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+    font-family: "poppins";
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 600;
+}
+.side_menu_list ul li a{
+    transition: 0.3s all ease-in-out;
+}
+
+.side_menu_list ul li:last-child{
+    border: none;
+}
+
+.rj{
+    position: absolute;
+    background: #e4f4e870;
+    right: -70px;
+    bottom: 0;
+    width: 50%;
+    height: 50px;
+    opacity: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.side_menu_list ul li:hover .rj{
+    opacity: 1;
+    right: -70px;
+    width: 70%;
+    transition: width 0.5s ease-in-out;
+}
+
+.side_menu_list ul li:hover a{
+    color: #93e027;
+}
+
+.bottom_side_info{padding: 25px 0 0;}
+
+.bottom_side_info ul{
+    list-style: none;
+    padding: 0;
+   margin: 0 70px;
+}
+
+.bottom_side_info ul li{
+    font-size: 14px;
+    font-family: "poppins";
+    padding: 4px 0;
+}
+.bottom_side_info ul li a{
+    color: #022501;
+    transition: 0.2s all ease-in-out;
+}
+
+
+.bottom_side_info ul li a i {font-size: 22px;}
+
+.side_pf_copyright{
+    text-align: left;
+    margin-left: 70px;
+    padding-top: 5px;
+}
+
+.side_pf_copyright p{
+    color: #022501;
+    font-size: 12px;
+    font-family: "poppins";
+}
+
+.sidemenu_cancel{
+    text-align: right;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.sidemenu_cancel img{
+    width: 100%;
+    max-width: 45px;
+}
+
+.sidemenu_cancel a i{
+    font-size: 36px;
+    margin-right: 15px;
+    transition: 0.2s all ease-in-out;
+}
+
+.sidemenu_cancel img:hover{
+    transform: rotate(90deg);
+    transition: 0.6s all ease-in-out;
+}
+#wrapper{position: relative;}
+.pf_wrapper::before{
+    position: absolute;
+    background: linear-gradient(90deg, rgba(141, 198, 63, 0.7), rgba(43, 182, 115, 0.7));
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    left: 0;
+    right: 0;
+    top: 0;
+    min-height: 100vh;
+}
+
+/* ////////////////////////////////////////////////// */
+
+.pf_nav_item{
+    margin-right: 20px;
+}
+
+.nav-item .pf_dropdwn i{
+    color: #c6fe7f;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pf-dropdown-menu{
+    width: 100%;
+    background: #1d3b2d !important;
+    top: 55px;
+    border-radius: 5px !important;
+}
+
+.pf-dropdown-menu a{
+    color: #fff !important;
+    border-bottom: 4px solid rgb(247 241 241 / 35%) !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+}
+
+.pf-dropdown-menu a:focus{
+    color: #1d3b2d;
+    background: #000;
+}
+
+
+.pf-dropdown-menu a:last-child{
+    border: none !important;
+}
+
+.pf-dropdown-menu a:hover{
+    background: #1d3b2d !important;
+}
+
+.user-drop-area {
+    background: #c5fe7f;
+    padding: 8px 4px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    font-size: initial !important;
+}
+
+.pf_dropdwn img {
+    max-width: 25px;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+
+
+/* sliding animation css */
+
+.moved {
+    left: -400px;
+  }
+
+/* ///////// Upload profile css ////////// */
+
+
+/* css for upload profile */
+.profile-img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #000;
+    margin: 25px auto;
+    border: 2px solid #000;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.profile-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.p-image {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    background: #000;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 5px 8px;
+    left: 110px;
+    margin: auto;
+    top: 75px;
+}
+
+.p-image i {
+    color: #fff;
+    cursor: pointer;
+}
+
+.file-upload {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.change-profile {
+    text-align: center;
+}
+
+.change-profile a{
+    color: #000;
+    font-family: "poppins";
+    font-size: 14px;
+}
+
+/* /////////// Login page css ///////////// */
+
+
+.login_wrapper{
+    position: relative;
+}
+
+.login_left {
+    background-image: linear-gradient(90deg,rgb(68 97 28 / 50%),rgb(11 61 37 / 50%)),url('../images/phreshfarm_img/agent-login.jpg');
+    background-position: 50% 100%,0 0,50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat,repeat,no-repeat;
+    float: left;
+    max-width: 68%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+.login_left .login_left_Cont div {
+    max-width: 320px;
+    margin-left: 45px;
+    margin-top: 60px;
+}
+
+.investor-login{
+    background-image: linear-gradient(90deg,rgb(68 97 28 / 50%),rgb(11 61 37 / 50%)),url('../images/phreshfarm_img/D71_8044.jpg') !important;
+    /*url('../images/phreshfarm_img/shape.svg'),*/
+}
+
+.investor-login div{
+    max-width: 320px;
+    margin-left: 45px;
+    margin-top: 66px;
+}
+
+
+.login_right{
+    position: relative;
+    float: left;
+    max-width: 32%;
+    background-color: #f3fffb;
+    width: 100%;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.login_left_Cont{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.login_left_Cont h2{
+    font-weight: 700;
+    color: #fff;
+    line-height: 45px;
+}
+
+.login_left_Cont h4{
+    font-weight: 300;
+    color: #fff;
+}
+
+.login_left_Cont h4 img{
+    max-width: 32px;
+    float: left;
+    margin-right: 5px;
+}
+
+.login_right_cont{
+    padding: 60px 35px;
+}
+
+.login_right_cont h3{
+    color: #115635;
+    font-weight: 600;
+    text-align: center;
+}
+
+.login_right_cont p{
+     color: #115635;
+     font-family: "poppins";
+     text-align: center;
+}
+
+.login_right_cont h3 span{
+    font-weight: 400;
+}
+
+.login_right_cont label{
+    color: #2bb673;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+.login_right_cont .form-control {
+    color: #000;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "poppins";
+}
+
+.login_right_cont .form-control:hover,.login_right_cont .form-control:active,.login_right_cont .form-control:focus{
+    border-color: #5acc00;
+    box-shadow: none;
+}
+
+.login_right_cont .pf_btn{
+    width: 100%;
+    display: block;
+}
+
+.login_right_cont .forget_Area{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login_right_cont .forget_Area p{
+    color: #115635;
+    font-family: "poppins";
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login_right_cont .forget_Area p a {
+    font-weight: 700;
+    color: #115635;
+    transition: 0.2s all ease-in-out;
+}
+
+.login_right_cont .account_Area {
+    margin-top:80px;
+}
+
+.login_right_cont .account_Area span{
+    color: #115635;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: 400;
+}
+
+.login_right_cont .account_Area span a{
+    color: #115635;
+    font-weight: 600;
+    transition: 0.2s all ease-in-out;
+    font-weight: 700;
+}
+
+.login-bottom-area{
+    text-align: center;
+}
+
+.login-bottom-area p{
+    color: #115635;
+    font-family: "poppins";
+    font-size: 14px;
+}
+
+.login-bottom-area p a{
+    font-weight: 700;
+    color: #115635;
+    transition: 0.2s all ease-in-out;
+}
+
+.checkarea span{
+    font-weight: 700;
+    color: #115635;
+}
+
+.checkarea label{
+    color: #115635;
+}
+
+/*//////// custom radio button /////////*/
+
+.lengend-action-buttons {
+  display: inline-block;
+  margin-top: 10px;
+}
+.lengend-action-buttons label {
+  font-weight: normal;
+  font-size: 14px;
+  Font-Family: "poppins";
+  Color: #2bb673;
+  display: block;
+  cursor: pointer;
+}
+.lengend-action-buttons [type="radio"] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.lengend-action-buttons [type="radio"] + span:before {
+  content: '';
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: -0.10em;
+  border-radius: 1em;
+  border: 0.35em solid #fff;
+  box-shadow: 0 0 0 0.10em #36B18D;
+  margin-right: 0.75em;
+  transition: 0.5s ease all;
+}
+.lengend-action-buttons [type="radio"]:checked + span:before {
+  background: #36B18D;
+  box-shadow: 0 0 0 0.10em #36B18D;
+}
+.lengend-action-buttons [type="radio"]:focus + span::after {
+  font-size: 1.2em;
+  line-height: 1;
+  vertical-align: -0.125em;
+}
+
+
+
+
+/* /////////// Signup page css ///////////// */
+
+.signup_left {
+    background-image: linear-gradient(90deg,rgb(68 97 28 / 50%),rgb(11 61 37 / 50%)),url('../images/phreshfarm_img/investor-sign.jpg');
+    height: 100%;
+    background-size: cover;
+}
+
+.Agent_sign_up_left{
+    background-image: linear-gradient(90deg,rgb(68 97 28 / 50%),rgb(11 61 37 / 50%)),url('../images/phreshfarm_img/agent-sign.jpg');
+    min-height: 100vh;
+}
+
+.Agent_sign_up_left .login_left_Cont div {
+    max-width: 520px !important;
+}
+
+.Agent_sign_up_left .login_left_Cont h2 {
+    max-width: 285px;
+    line-height: 1.2;
+}
+
+.Agent_sign_up_left .login_left_Cont {
+        min-height: 100vh;
+}
+
+.Agent-Login-area .login_left_Cont div {
+    margin-left: 90px;
+}
+
+/*url('../images/phreshfarm_img/signshape.svg'),*/
+
+.signup_left .login_left_Cont div{
+    max-width: 320px;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+
+.login_right_cont .sign_Area {
+    margin-top:0px;
+}
+
+.signup_left .sign_up_left_cont {
+    min-height: 100vh;
+}
+
+.sign_h3{
+    margin-bottom: 20px !important;
+}
+
+
+/* uploaded css */
+.login_right_cont .pf_btn{
+    transition: 0.3s all ease-in-out;
+}
+
+.profile_pf_Sec{overflow-x: hidden;}
+
+.forget-right{width: 30%;}
+
+.sign-up-right .login_right_cont {
+    padding: 25px 42px;
+}
+.sign-up-right .login_right_cont h3 {text-align: left;}
+.sign-up-right .login_right_cont p {text-align: left; margin: 0;}
+.sign-up-right .login_right_cont .span-or{
+    font-size: 14px;
+  Font-Family: "poppins";
+  Color: #115635;
+  font-weight: 700;
+}
+
+
+
+/ ///////////////// offering page css //////////// /
+
+
+
+.offering-banner h5{
+color: #fff;
+line-height: 1.7;
+font-size: 18px;
+}
+.offering-banner h2{
+color: #fff;
+}
+
+.offering-banner .slider-item h4{
+color: #fff;
+font-size: 20px;
+}
+.offering-banner .slider-item h3{
+color: #c0ff00;
+}
+
+.offering-banner{
+position: relative;
+background-size: cover;
+width: 100%;
+min-height: 100%;
+}
+.offering-banner .shape-cover{
+width: 100%;
+height: 100%;
+z-index: 1;
+opacity: 1;
+position: absolute;
+bottom: 0;
+}
+
+.offering-banner::before{
+display: none;
+}
+.offering-banner .left-content{
+position: absolute;
+bottom: 0;
+display: block;
+max-width: 50%;
+padding: 120px 100px;
+}
+
+.offering-banner .carousel-inner{
+max-height: 650px;
+position: relative;
+}
+
+.offering-banner .carousel-inner::before{
+content: "";
+position: absolute;
+/ background: #00000070; /
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 2;
+opacity: 1;
+width: 100%;
+height: 100%;
+}
+
+.offering-banner .carousel-inner .carousel-item img{
+-webkit-animation: zoomin 10s ease-in infinite;
+animation: zoomin 10s ease-in infinite;
+transition: all .5s ease-in-out;
+overflow: hidden;
+}
+
+@keyframes zoomin {
+0% {transform: scale(1);}
+50% {transform: scale(1.1);}
+100% {transform: scale(1);}
+}
+
+@-webkit-keyframes zoomin {
+0% {transform: scale(1);}
+50% {transform: scale(1.1);}
+100% {transform: scale(1);}
+}
+
+.farms-area::before{
+display: none;
+}
+.farms-area{
+padding: 90px 0 120px;
+background: linear-gradient(to bottom, rgb(7 7 7 / 86%), rgb(20 21 21 / 90%)),
+url('../images/plans/4.png');
+
+}
+
+.commodities-area{
+background: linear-gradient(to bottom, rgb(27 19 4 / 86%), rgb(20 21 21 / 90%)),
+url('../images/plans/4.png');
+}
+
+.products-area{
+background: linear-gradient(to bottom, rgb(27 19 4 / 86%), rgb(20 21 21 / 90%)),
+url('../images/plans/4.png');
+}
+
+.farms-area .farm-img{position: relative;}
+
+.farms-area .section-heading{
+margin-bottom: 0 !important;
+}
+
+.farm-card{
+background: #142314;
+padding: 20px;
+box-shadow: rgb(11 9 9 / 56%) 2px 3px 3px 2px;
+margin: 10px 0;
+
+}
+.farm-card .card-title{
+padding-bottom: 10px;
+text-align: center;
+}
+.farm-card .card-title h3{
+color: #c0ff00;
+}
+.farm-card .card-block h5{
+color: #fff;
+}
+.farm-card .card-block h6{
+color: #b1afaf;
+}
+.farmcard-content h5{
+color: #fff;
+}
+
+.farmcard-content p{
+margin: 0;
+color: #b1afaf;
+}
+
+.farm-content{
+position: relative;
+right: 50px;
+}
+
+.farm-content::before{
+background: url('../images/plans/3.png') no-repeat;
+content: "";
+position: absolute;
+left: 50px;
+right: 0;
+top: -5px;
+width: 100%;
+height: 100%;
+background-size: cover;
+}
+
+.farm-card .accordion{
+background-color: transparent;
+color: #fff;
+cursor: pointer;
+padding: 10px;
+font-weight: 400;
+width: 100%;
+font-size: 15px;
+transition: 0.4s;
+border-bottom: none;
+background: #00000036;
+border-radius: 3px;
+font-family: "poppins";
+margin-top: 10px;
+}
+
+.accordion:after{
+content: '\002B';
+color: #000 !important;
+font-weight: bold;
+float: left !important;
+margin-right: 10px;
+background: #b7f12b;
+padding: 0px 7px;
+font-size: 20px !important;
+width: 25px;
+height: 25px;
+border-radius: 50%;
+margin-bottom: 0;
+}
+
+.farm-card .questions{
+max-width: 100%;
+margin: 0;
+}
+.farm-card .panel{
+background: #00000030;
+margin: 10px 0;
+}
+
+.farm-card .panel p{
+font-family: "poppins";
+font-weight: 400;
+}
+.farm-card .base-btn1{
+width: 100px;
+padding: 5px 15px;
+text-align: center;
+margin: 5px auto;
+font-family: "poppins";
+}
+
+.base-btn1 {
+background: #0f9831 !important;
+border-radius: 5px;
+color: #fff;
+}
+
+.base-btn1:hover{
+color: #fff;
+}
+
+
+.main-banner{
+height: 100%;
+min-height: 100vh;
+background: #142314;
+}
+
+.main-banner::before{
+content: "";
+position: absolute;
+height: 100%;
+width: 60%;
+background: linear-gradient(to bottom, rgb(159 159 160 / 52%), rgb(19 18 19 / 73%)),url('../images/agriculture/agriculture.jpg') top right no-repeat;
+border-bottom-right-radius: 200px;
+}
+
+.main-banner .left-content {
+z-index: 9;
+padding: 120px 60px;
+
+}
+
+.main-banner h5{
+color: #b7f12b;
+}
+
+.main-banner .left-content .content .title {
+font-size: 50px;
+font-weight: 600;
+line-height: 60px;
+margin-bottom: 19px;
+color: #b7f12b;
+}
+.main-banner .left-content .content .text {
+font-size: 18px;
+line-height: 28px;
+margin-bottom: 40px;
+margin-bottom: 47px;
+color: #fff;
+}
+
+.mainmenu-area.nav-fixed {
+border-bottom: 0px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+position: fixed;
+}
+
+/*/////////////////////// faq Accordian css ///////////////////////*/
+
+.faq-sec{
+background: #142314;
+}
+
+
+.questions {
+max-width: 75%;
+margin: 0 auto;
+text-align: center;
+}
+
+.accordion:hover {
+transition: 0.2s all ease-in-out 0s;
+box-shadow: 0 13px 34px -25px rgba(0,0,0,.41);
+border-color: #fff;
+}
+
+
+.accordion {
+background-color: transparent;
+color: #fff;
+cursor: pointer;
+padding: 18px;
+font-weight: 400;
+width: 100%;
+font-size: 15px;
+transition: 0.4s;
+border-bottom: 1px solid #ddd;
+}
+
+.accordion:after {
+content: '\002B';
+color: #b7f12b;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+font-size: 26px
+}
+
+.accordion.active:after {
+content: "\2212";
+}
+
+.panel {
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.5s ease-out;
+padding: 0px 15px 0;
+}
+
+.panel p{
+color: #ececec;
+font-size: 16px;
+font-weight: 600;
+line-height: 1.7;
+padding-top: 10px;
+letter-spacing: 0.5px;
+}
+
+.answers {
+margin-top: 90px;
+}
+
+/*Dashboard Profile tab extra css*/
+
+.Basic-info-area {
+    margin-top: 60px;
+}
+
+.Bank-detail-area {
+    margin-top: 120px;
+}
+
+.Basic-info-area .form-group, .Bank-detail-area .form-group {
+    margin-bottom: 5px;
+}
+
+.Basic-info-area .form-group label, .Bank-detail-area .form-group label{
+    margin-bottom: 5px;
+}
+
+.Basic-info-area .pf_btn, .Bank-detail-area .pf_btn{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.hamburger-disable,.hamburger-enable{display: none;}
+.hamburger-disable,.hamburger-enable i {font-size: 0px;}
+
+.modal-footer button{font-family: "poppins";}
+.modal-footer .btn-primary {background: #1d3d2b; border-color: #1d3d2b;}
+.modal-footer .btn-primary:focus, .modal-footer .btn-primary:active{box-shadow: none; outline: none; border-color: #1d3d2b;}
+
+
+
+
+/* //////////////////////// Css for Investment Page D dec 2020 ////////////////////////// */
+
+
+
+.investment_ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.investment_ul li {display: inline-block;}
+
+.backtodashboard {
+    background: #fff;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+
+.invest-banner{
+    background: #fff;
+}
+
+.investment_banner{
+    min-height: 70vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+}
+
+.investment_banner img{
+    background-size: cover;
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.investment_Cont_Area {
+    z-index: 1;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 40%;
+}
+
+.investment_Cont_Area h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.Investment-card-heading {
+    padding: 20px;
+    background: #f0f0f0;
+}
+
+.Investment-card-heading h3{
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.Investment-card-heading h3::before{
+    content: "";
+    height: 100%;
+    width: 4px;
+    background: #00af03;
+    display: block;
+    position: absolute;
+    height: 35px;
+    margin-left: -10px;
+}
+
+.Invest-Slider-Area{
+    padding: 40px 0;
+    background: #f1fffb;
+}
+
+/* slider css */
+
+.Main-carousel-area{
+    padding: 30px 0;
+    background: #f1fffb;
+}
+
+.Invest-Slider-card {
+    position: relative;
+    background: linear-gradient(to bottom, #f1fffa96, #f1fffa96),url('../images/phreshfarm_img/card-design.png') top no-repeat;
+    box-shadow: 0px 1px 10px 1px #21664f9c;
+    max-width: 320px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* //// plantain header change css //// */
+
+.Invest-Slider-card .card-header {
+    padding: 0;
+    border: none;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .card-header .card-header-img{
+    min-height: 220px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.Invest-Slider-card .card-header .card-header-img::before{
+    background: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(26 26 26 / 66%))center no-repeat;
+    min-height: 220px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    content: "";
+    width:100%;
+}
+
+.Invest-Slider-card .card-header .card-header-img img{
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    width: 320px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.Invest-Slider-card .Plantain-header {
+    padding: 0;
+    border: none;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .Plantain-header::after{
+    content: "";
+    background: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(26 26 26 / 66%)),url('../images/phreshfarm_img/plantain.png') center no-repeat;
+    min-height: 220px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.Invest-Slider-card .Plantain-header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .Plantain-header h5{
+    position: absolute;
+    font-size: 20px;
+    z-index: 1;
+    color: #fff;
+    bottom: 0;
+}
+
+/* //////////////////// */
+
+
+/* //// plantain header change css //// */
+
+.Invest-Slider-card .card-header {
+    padding: 0;
+    border: none;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .card-header::after{
+    background: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(26 26 26 / 66%))center no-repeat;
+}
+
+
+
+.Invest-Slider-card .card-header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .card-header h5{
+    position: absolute;
+    font-size: 20px;
+    z-index: 1;
+    color: #fff;
+    bottom: 0;
+}
+
+.Invest-Slider-card .card-body {
+    padding: 15px 60px;
+}
+
+.card-body .body-cont h1{
+    color: #00af03;
+    margin: 0;
+}
+
+.card-body .body-cont p{
+    color: #000;
+    font-family: "poppins";
+    margin: 0;
+}
+
+.Invest-Slider-card .middle-cont {
+    padding: 20px 0;
+}
+
+.Invest-Slider-card .middle-cont h5, p{
+    color: #000;
+    font-family: "poppins";
+    margin: 0;
+}
+
+.middle-cont .investBtn {
+    background: #00af03;
+    color: #fff;
+    border: none;
+    font-family: "poppins";
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.Invest-Slider-card .card-block {
+    border-top: 2px solid rgb(114, 114, 114);
+}
+
+.block-cont {
+    padding: 10px;
+}
+
+.block-cont p:first-child{
+    border: 2px solid #00af03;
+    border-radius: 15px;
+    padding: 0px 5px;
+    color: #000;
+    font-family: "poppins";
+    float: left;
+    font-size: 12px
+}
+
+.block-cont p:last-child{
+    color: #000;
+    font-family: "poppins";
+    text-align: right;
+    font-size: 12px
+}
+
+.Main-carousel-area .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #55555591;
+}
+
+.Main-carousel-area .carousel-indicators .active {
+    background-color: #00af03;
+}
+
+.Main-carousel-area .carousel-indicators {
+    bottom: -35px;
+}
+
+
+/* plaintan header change css */
+
+.Invest-Slider-card .Plantain-header {
+    padding: 0;
+    border: none;
+    min-height: 220px;
+    position: relative;
+}
+
+/*.Invest-Slider-card .Plantain-header::after{*/
+/*    content: "";*/
+/*    background: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(26 26 26 / 66%)),url('../images/phreshfarm_img/plantain.png') center no-repeat;*/
+/*    min-height: 220px;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    background-size: cover;*/
+/*    border-bottom-right-radius: 100px;*/
+/*    border-bottom-left-radius: 100px;*/
+/*}*/
+
+.Invest-Slider-card .Plantain-header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .Plantain-header h5{
+    position: absolute;
+    font-size: 20px;
+    z-index: 1;
+    color: #fff;
+    bottom: 0;
+}
+
+
+/* vegetable header css */
+
+
+.Invest-Slider-card .vegetable-header {
+    padding: 0;
+    border: none;
+    min-height: 220px;
+    position: relative;
+}
+
+/*.Invest-Slider-card .vegetable-header::after{*/
+/*    content: "";*/
+/*    background: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(26 26 26 / 66%)),url('../images/phreshfarm_img/vegetable.png') center no-repeat;*/
+/*    min-height: 220px;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    background-size: cover;*/
+/*    border-bottom-right-radius: 100px;*/
+/*    border-bottom-left-radius: 100px;*/
+/*}*/
+
+.Invest-Slider-card .vegetable-header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .vegetable-header h5{
+    position: absolute;
+    font-size: 20px;
+    z-index: 1;
+    color: #fff;
+    bottom: 0;
+}
+
+
+/* pepper header css */
+
+
+.Invest-Slider-card .Pepper-header {
+    padding: 0;
+    border: none;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .Pepper-header::after{
+    content: "";
+    background: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(26 26 26 / 66%)),url('../images/phreshfarm_img/pepper.png') center no-repeat;
+    min-height: 220px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.Invest-Slider-card .Pepper-header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .Pepper-header h5{
+    position: absolute;
+    font-size: 20px;
+    z-index: 1;
+    color: #fff;
+    bottom: 0;
+}
+
+/* cashew header css */
+
+
+.Invest-Slider-card .Cashew-header {
+    padding: 0;
+    border: none;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .Cashew-header::after{
+    content: "";
+    background: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(26 26 26 / 66%)),url('../images/phreshfarm_img/cashew.png') center no-repeat;
+    min-height: 220px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.Invest-Slider-card .Cashew-header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .Cashew-header h5{
+    position: absolute;
+    font-size: 20px;
+    z-index: 1;
+    color: #fff;
+    bottom: 0;
+}
+
+
+/* Food header css */
+
+
+.Invest-Slider-card .Food-header {
+    padding: 0;
+    border: none;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .Food-header::after{
+    content: "";
+    background: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(26 26 26 / 66%)),url('../images/phreshfarm_img/food.png') center no-repeat;
+    min-height: 220px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.Invest-Slider-card .Food-header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .Food-header h5{
+    position: absolute;
+    font-size: 20px;
+    z-index: 1;
+    color: #fff;
+    bottom: 0;
+}
+
+
+
+/* Product header css */
+
+
+.Invest-Slider-card .Product-header {
+    padding: 0;
+    border: none;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .Product-header::after{
+    content: "";
+    background: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(26 26 26 / 66%)),url('../images/phreshfarm_img/rice.png') center no-repeat;
+    min-height: 220px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.Invest-Slider-card .Product-header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 220px;
+    position: relative;
+}
+
+.Invest-Slider-card .Product-header h5{
+    position: absolute;
+    font-size: 20px;
+    z-index: 1;
+    color: #fff;
+    bottom: 0;
+}
+
+
+/* /////////////////////////////////////---------------------- Single Investment Page Css -------------------------//////////////////////// */
+
+.btn-blank {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    padding: 8px 20px;
+}
+
+.investment_banner p,h3{
+    color: #fff;
+}
+
+.investment_banner h3{
+    color: #fff;
+    font-size: 42px;
+}
+
+
+
+.single-investment_banner {
+    height: 100%;
+    min-height: 75vh;
+    position: relative;
+    background: #f0f0f0;
+}
+
+
+.investment_banner::before {
+background: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(26 26 26 / 50%)) center no-repeat;
+content: "";
+display: block;
+width: 100%;
+height: 70vh;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+z-index: 1;
+border-bottom-right-radius: 250px;
+border-bottom-left-radius: 250px;
+}
+
+.single-investment_banner .investment_Cont_Area {
+    margin-top: 0px;
+    bottom: 40px;
+}
+
+.single-investment-share{
+    padding: 40px 0 30px;
+    background: #f0f0f0;
+}
+
+.invest-share-area {
+    max-width: 660px;
+    margin: auto;
+}
+
+.farmswithicon{
+    border: 2px solid #00af03;
+    border-radius: 15px;
+    padding: 3px 10px;
+    color: #000;
+    font-family: "poppins";
+    font-size: 14px;
+    display: inline-block;
+}
+.friends-share{
+    font-size: 22px;
+    text-align: center;
+}
+
+.single-investment-share ul li{
+    display: inline-block;
+    padding: 0;
+}
+
+.single-investment-share ul li i{
+    color: #282828;
+    font-size: 32px;
+    margin-right: 15px;
+}
+
+/* /// design section css/// */
+
+.invest-design-area {
+    padding: 30px 0;
+    background: linear-gradient(to bottom, #9bf7d675, #b1fbe15e),url("../images/phreshfarm_img/invest-shape-bg.png") center no-repeat;
+    box-shadow: 0px 1px 20px 1px #21664f9c;
+    background-size: 100%;
+    margin: 25px 0;
+    border-radius: 105px;
+}
+
+.design-middle {
+    max-width: 440px;
+    margin: auto;
+}
+
+.invest-percent h1{
+    color: #00af03;
+    font-size: 125px;
+    margin: 0;
+}
+.invest-percent h3{
+    color: #555;
+    line-height: 0;
+}
+
+.sold-area p{
+    color: #000;
+    font-size: 36px;
+    margin: 0;
+    font-weight: 600;
+    line-height: 1;
+}
+.sold-area{text-align: center; margin: 45px 0 0;}
+.sold-area span{
+    color: red;
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: 600;
+}
+
+.number-invest {
+    position: relative;
+    max-width: 330px;
+    margin: auto;
+    margin-top: 25px;
+    display: block;
+}
+
+.number-invest p{
+    color: #000;
+    font-size: 20px;
+}
+
+.number-invest h1{
+    color: #000;
+    font-size: 42px;
+    text-align: center;
+    background: #f0f0f0;
+}
+
+.number-invest h1 span{
+    font-size: 20px;
+}
+
+.packs-ul ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.packs-ul ul li span{
+    border: 2px solid #000;
+    box-shadow: 1px 1px 2px 1px #555;
+    font-size: 20px;
+    background: #efefef;
+    padding: 5px 10px;
+}
+
+.packs-ul ul li button{
+    font-size: 16px;
+    background: #282828;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: #fff;
+    border: none;
+}
+
+.packs-ul ul li button:active,.packs-ul ul li button:focus{
+    outline: none;
+    border: none;
+    background: #ddd;
+    color: #000;
+}
+
+.packs-ul {
+    text-align: center;
+    margin: 30px 0 0;
+}
+
+.single-gray-btn {
+    margin: 25px 0 0;
+    text-align: center;
+}
+
+.single-gray-btn button{
+    width: 100%;
+    padding: 5px 20px;
+    font-size: 36px;
+    background: #00af03;
+    border: none;
+    color: #fff;
+    font-family: "poppins";
+    max-width: 400px;
+    margin: auto;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.Description-single {
+    padding: 30px 0 90px;
+}
+
+.desc{
+    max-width: 620px;
+    margin: auto;
+}
+
+.desc h3{
+    font-weight: 600;
+    color: #000;
+}
+
+.desc p{
+    margin: 20px 0 0;
+    font-size: 16px;
+}
+
+.related h3{
+    color: #000;
+}
+
+.related-sec {
+    padding: 30px 0 30px;
+}
+
+.number-invest .form-group label{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.number-invest .form-group .form-control{
+    background: #82e9cb;
+    width: 180px;
+    margin: auto;
+    font-weight: 600;
+    font-family: 'Poppins';
+    border-color: #82e9cb;
+}
+
+.number-invest .form-group .form-control:active, .number-invest .form-group .form-control:focus{
+     background: #fff;
+     box-shadow: none;
+}
+
+
+/* /////////////////// slick extra css ///////////////////// */
+
+
+.slick-dots {
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.slick-dots li {
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.slick-dots li.slick-active button {
+    background-color: #00af03;
+}
+.slick-dots li button {
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    background-color: #999;
+    border: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.slick-dots li :hover {
+    background-color: #00af03;
+}
+.slick-dots li :active,.slick-dots li :focus {
+    border: none;
+   outline: none;
+}
+/* Custom Arrow */
+.prev {
+    color: #999;
+    position: absolute;
+
+    top: 38%;
+    left: -2em;
+    font-size: 1.5em;
+}
+.prev :hover {
+    cursor: pointer;
+    color: black;
+}
+.next {
+    color: #999;
+    position: absolute;
+    top: 38%;
+    right: -2em;
+    font-size: 1.5em;
+}
+.next :hover {
+    cursor: pointer;
+    color: black;
+}
+.block-cont p img{display: inline-table;}
+@media screen and (max-width: 800px) {
+    .next {
+        display: none !important;
+   }
+}
+
+ {
+    
+}
+
+.change-password {
+    display: block;
+    height: 100%;
+    background: #ffffffe3;
+    box-shadow: 0px 0px 6px 0px #8a8686;
+    padding: 60px;
+    max-width: 620px;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 90px;
+}
+.change-password h3{
+    color: #004e02;
+}
+.change-password .pf_btn{
+    color: #fff;
+    background: #004e02;
+    border: none;
+}
+.change-password .form-control{
+    color: #000;
+    background: #ddfeb0;
+    border: 1px solid #ddfeb0;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "poppins";
+}
+.change-password label{font-family: "poppins";}
+.password-wrapper {padding-left: 0px;}
+
+.add_fund_wallet{
+    padding-bottom: 0;
+    margin-bottom: 15px !important;
+}
+
+.add_fund_wallet h6{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.pay-out{
+    margin-bottom: 10px;
+}
+
+.pay-out h6{
+        color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* .............. custm responsive media queries ............. */
+
+
+@media screen and (min-width:300px) and (max-width: 480px){
+    .topbar_area_pf .navbar{padding: 0;}
+    .navbar-light .navbar-toggler{display: none;}
+    .topbar_area_pf .nav-item span:first-child{font-size: 12px; margin-right: 0;}
+    .topbar_area_pf .nav-item{ display: inline-block;}
+    .showit{display: block !important; transition: display 0.3s ease-in-out;}
+    .navbar-nav{flex-direction: unset; float: right;}
+
+    .side_animation_wrapper {overflow-y: scroll;}
+
+    .pf_tab_one ul li{text-align: left; width: 100%; font-size: 16px; padding-left: 25px;}
+    .pf_tab_one ul li:last-child{text-align: left;}
+    .pf_invest_cont{padding: 30px;}
+    .main_pf{background-size: cover; position: relative; min-height: 100%;}
+    .profile_pf_Sec h3{margin-top: 20px;}
+
+    /* header css */
+    .navbar-collapse{flex-basis: auto;}
+    .pf_nav_item{margin-right: 0px;}
+    .topbar_area_pf .pf_nav_item span:first-child{}
+    .collapse:not(.show) {display: block;}
+    .pf-dropdown-menu{left: 0px;}
+    .nav-item .pf_dropdwn i {margin-left: 5px;}
+
+    /* sidebar css */
+
+    #sidebar-wrapper {overflow-y: hidden; width: 60%; position: fixed; margin-top: 45px; -webkit-transition: margin-left .5s ease;transition: margin-left .5s ease;background: #f0fffa; height: auto; min-height: 100%;}
+    .sidebar-nav{ width: 100%; border-radius: 0px; height: auto; min-height: 100%; margin-top: 70px;}
+    .sidebar-nav li{margin-left: 5px; margin-right:60px;}
+    .sidebar-nav .active{padding: 5px 0;}
+    .sidebar-nav li span{width: 100%; display:block;}
+
+    /* tab area css */
+    .pf_inner_tab_one{right: -38px; position: relative; max-width: 90%; margin:10px 0 0;}
+    #wrapper { position: relative; width: 100%; height: 100%; display: block; }
+    .pf_tab_one { position: relative;  height: 100%; min-height: 100%; }
+
+    /* referral css */
+    .code_share ul li{text-align: left !important; margin: 10px 0;}
+    .pf_percent h2{text-align: left;}
+    .pf_percent h6{padding: 0;}
+
+    /* profile css */
+    .profile_pf_Sec{padding: 25px 20px;}
+
+    /* animatin css */
+    .sidemenu_cancel img{max-width: 40px;}
+    .sidemenu_cancel img:active {transform: rotate(90deg); transition: 0.6s all ease-in-out;}
+
+    /* login page css */
+    .login_left{max-width: 100%; height: 100%; min-height: 100%;}
+    .signup_left .sign_up_left_cont {min-height: 315px;}
+    .login_right{min-width: 100%; height: 100% !important; overflow-y:none;}
+    .login_right_cont{padding: 30px;}
+    .login_right_cont h3{margin-bottom: 30px;}
+    .login_right_cont .account_Area{margin-top: 30px;}
+    .signup_left{min-height: 100%;}
+    /*.login_wrapper .mainmenu-area .navbar .navbar-brand{margin-right: auto;}*/
+    
+    .signup_left .login_left_Cont div {margin-left: 35px;}
+    .investor-login div {margin-left: 0px; margin-top: 0px;}
+    .login_left .login_left_Cont div {margin-left: 45px; margin-top: 0px;}
+    .login_left_Cont {min-height: 50vh !important;}
+    .login_left_Cont h2 {font-size: 36px !important;}
+    
+    /*extra 08 dec*/
+    
+    .profile_pf_Sec .col-lg-5:first-child{order:1;}
+    .Bank-detail-area {margin-top: 0px;}
+    
+    .leftenable {margin-left: -47% !important; background: transparent !important;}
+    .hamburger-enable, .hamburger-disable{display: block; padding: 25px 5px; text-align: right;}
+    .hamburger-enable i, .hamburger-disable i{font-size: 28px;}
+    .flaticon-wallet:before,.flaticon-male-user-shadow:before,.flaticon-printer:before{font-size: 14px !important;}
+    .sidebar-nav li i {font-size: 14px;}
+    .sidebar-nav li span p {font-size: 13px;}
+    
+    .mainmenu-area .navbar .navbar-brand {width: 35%;}
+    .mainmenu-area .navbar .navbar-brand img {max-width: 110px;}
+    .user-drop-area {padding: 0px;}
+    .pf_dropdwn img {max-width: 15px; margin-left: 3px;}
+    .topbar_area_pf .nav-item .bars_pf i {font-size: 26px;}
+    
+    .pf_invest_history{padding: 15px; min-height: auto;}
+    
+    .slick-prev, .slick-next {display: none !important;}
+    .farmswithicon {width: 95px;margin: auto; display:block;}
+    .friends-share {text-align: center; margin: 10px 0;}
+    .invest-share-area ul {text-align: center;}
+    
+    .invest-percent h1 {font-size: 70px;text-align: center;}
+    .invest-percent h3 {text-align: center;margin: 15px 0 0;}
+    .single-gray-btn button {width: 60%;}
+    
+    .password-content-wrapper {height: 100%; min-height: 100vh;}
+    .password-content-wrapper .change-password {padding: 15px;}
+    
+    .add_fund_wallet{font-size: 16px !important;}
+    .add_fund_wallet h6{font-size: 10px;}
+    
+    .pay-out{font-size: 16px !important;}
+    .pay-out h6{font-size: 10px;}
+    
+    /*/////// investment list /////*/
+    .invest-banner{min-height: 58vh;}
+    .investment_banner::before{border-bottom-right-radius: 150px;border-bottom-left-radius: 150px;height: 50vh;}
+    .investment_banner img {border-bottom-right-radius: 150px;border-bottom-left-radius: 150px;height: 50vh;}
+    .investment_Cont_Area {bottom: 20%;}
+    .backtodashboard{font-size: 11px; padding: 8px 5px;}
+    
+    .single-investment_banner {min-height: 50vh;}
+}
+
+
+
+
+@media screen and (min-width:481px) and (max-width: 567px){
+    .topbar_area_pf .navbar{padding: 0;}
+    .navbar-light .navbar-toggler{display: none;}
+    .topbar_area_pf .nav-item span:first-child{font-size: 16px;}
+    .topbar_area_pf .nav-item{ display: inline-block;}
+    .showit{display: block !important; transition: display 0.3s ease-in-out;}
+    .navbar-nav{flex-direction: unset; float: right;}
+
+    .pf_invest_top::before{height: 189px;}
+
+    .pf_tab_one ul li{text-align: left; width: 100%; font-size: 16px; padding-left: 25px;}
+    .pf_tab_one ul li:last-child{text-align: center;}
+    .pf_invest_cont{padding: 30px;}
+    .pf_inner_tab_one{right: 0;}
+    .main_pf{background-size: cover; position: relative; min-height: 100%; padding-bottom: 30px;}
+    .profile_pf_Sec h3{margin-top: 20px;}
+
+    /* header css */
+    .navbar-collapse{flex-basis: auto;}
+    .pf_nav_item{margin-right: 0px;}
+    .topbar_area_pf .pf_nav_item{margin-left: 5px;}
+    .collapse:not(.show) {display: block; width: 60%;}
+    .pf-dropdown-menu{left: 0px;}
+
+/* sidebar css */
+
+    #sidebar-wrapper {overflow-y: hidden; width: 45%; position: fixed; margin-top: 45px; -webkit-transition: margin-left .5s ease;transition: margin-left .5s ease;background: #f0fffa; height: auto; min-height: 100%;}
+    .sidebar-nav{ width: 100%; border-radius: 0px; height: auto; min-height: 100%; margin-top: 70px;}
+    .sidebar-nav li{margin-left: 5px; margin-right:55px;}
+    .sidebar-nav .active{padding: 5px 0;}
+    .sidebar-nav li span{width: 100%; display:block;}
+
+    /* tab area css */
+    .pf_inner_tab_one{right: -45px; position: relative; max-width: 90%;}
+    #wrapper { position: relative; width: 100%; height: 100%; display: block; }
+    .pf_tab_one { position: relative;  height: 100%; min-height: 100%; }
+
+    /* referral css */
+    .code_share ul li{text-align: left !important; margin: 10px 0;}
+    .pf_percent h2{text-align: left;}
+    .pf_percent h6{padding: 0;}
+
+    /* profile css */
+    .profile_pf_Sec{padding: 25px 20px;}
+
+    /* animatin css */
+    .sidemenu_cancel img{max-width: 50px;}
+    .sidemenu_cancel img:active {transform: rotate(90deg); transition: 0.6s all ease-in-out;}
+    .side_animation_wrapper {overflow-y: scroll;}
+    /* login page css */
+    .login_left{max-width: 100%; height: 100%;}
+    .login_left_Cont{padding:0px; margin: 80px auto; min-height: 0px !important;}
+    .login_right{min-width: 100%;max-height: 40vh;height: 100%;}
+    .login_right_cont{padding: 30px;}
+    .login_right_cont h3{margin-bottom: 30px;}
+    .login_right_cont .account_Area{margin-top: 30px;}
+    .signup_left{min-height: 100%;}
+    /*.login_wrapper .mainmenu-area .navbar .navbar-brand{margin-right: auto;}*/
+    
+    /*extra 08 dec*/
+    
+    .profile_pf_Sec .col-lg-5:first-child{order:1;}
+    .Bank-detail-area {margin-top: 0px;}
+    
+    .leftenable {margin-left: -35% !important;background: transparent !important}
+    .hamburger-enable, .hamburger-disable{display: block; padding: 25px 15px; text-align: right;}
+    .hamburger-enable i, .hamburger-disable i{font-size: 28px;}
+    .flaticon-wallet:before,.flaticon-male-user-shadow:before,.flaticon-printer:before{font-size: 14px !important;}
+    .sidebar-nav li i {font-size: 16px;}
+    .sidebar-nav li span p {font-size: 16px;}
+    
+    .mainmenu-area .navbar .navbar-brand {width: 35%;}
+    .mainmenu-area .navbar .navbar-brand img {max-width: 140px;}
+    .user-drop-area {padding: 5px;}
+    .pf_dropdwn img {max-width: 30px; margin-left: 3px; margin-right: 5px;}
+    .topbar_area_pf .nav-item .bars_pf i {font-size: 26px;}
+    .nav-item .pf_dropdwn i {margin-right: 5px;}
+    
+    .slick-prev, .slick-next {display: none !important;}
+    
+     /*/////// investment list /////*/
+    .invest-banner{min-height: 58vh;}
+    .investment_banner::before{border-bottom-right-radius: 150px;border-bottom-left-radius: 150px;height: 50vh;}
+    .investment_banner img {border-bottom-right-radius: 150px;border-bottom-left-radius: 150px;height: 50vh;}
+    .investment_Cont_Area {bottom: 20%;}
+    .backtodashboard{font-size: 16px; padding: 8px 15px;}
+    .Invest-Slider-card {margin-right: 10px;}
+    
+    .single-investment_banner {min-height: 52vh;}
+    .farmswithicon {width: 95px;margin: auto; display:block;}
+    .friends-share {text-align: center; margin: 10px 0;}
+    .invest-share-area ul {text-align: center;}
+    .invest-percent h1 {font-size: 70px;text-align: center;}
+    .invest-percent h3 {text-align: center;margin: 15px 0 0;}
+    .single-gray-btn button {width: 60%;}
+}
+
+
+@media screen and (min-width:568px) and (max-width: 767px){
+    .topbar_area_pf .navbar{padding: 0;}
+    .navbar-light .navbar-toggler{display: none;}
+    .topbar_area_pf .nav-item span:first-child{font-size: 16px;}
+    .topbar_area_pf .nav-item{ display: inline-block;}
+    .showit{display: block !important; transition: display 0.3s ease-in-out;}
+    .navbar-nav{flex-direction: unset; float: right;}
+
+    .pf_invest_top::before{height: 210px; bottom: 0;}
+
+    .pf_tab_one ul li{text-align: left; padding-left: 25px; width: 100%; font-size: 16px;}
+    .pf_tab_one ul li:last-child{text-align: center;}
+    .pf_invest_cont{padding: 60px;}
+    .pf_inner_tab_one{right: 0;}
+    .main_pf{background-size: cover; position: relative; min-height: 100%; padding-bottom: 30px;}
+    .profile_pf_Sec h3{margin-top: 20px;}
+
+    /* header css */
+    .navbar-collapse{flex-basis: auto;}
+    .pf_nav_item{margin-right: 0px;}
+    .topbar_area_pf .pf_nav_item{margin-left: 35px;}
+    .collapse:not(.show) {display: block;}
+    .pf-dropdown-menu{left: 0px; width: 100%; min-width: 320px;}
+
+    /* sidebar css */
+
+    #sidebar-wrapper {overflow-y: hidden; width: 34%; position: fixed; margin-top: 70px; -webkit-transition: margin-left .5s ease;transition: margin-left .5s ease;background: #f0fffa; height: auto; min-height: 100%;}
+    .sidebar-nav{ width: 100%; border-radius: 0px; height: auto; min-height: 100%; margin-top: 70px;}
+    .sidebar-nav li{margin-left: 5px; margin-right:52px;}
+    .sidebar-nav .active{padding: 5px 0;}
+    .sidebar-nav li span{width: 100%; display:block;}
+
+    /* tab area css */
+    .pf_inner_tab_one{right: -33px; position: relative; max-width: 100%;}
+    #wrapper { position: relative; width: 100%; height: 100%; display: block; }
+    .pf_tab_one { position: relative;  height: 100%; min-height: 100%; }
+
+    /* referral css */
+    .code_share ul li{text-align: left !important; margin: 10px 0; width: auto;}
+    .pf_percent h2{text-align: left;}
+    .pf_percent h6{padding: 0;}
+
+    /* profile css */
+    .profile_pf_Sec{padding: 25px 20px;}
+
+    /* animatin css */
+    .sidemenu_cancel img{max-width: 60px;}
+    .sidemenu_cancel img:active {transform: rotate(90deg); transition: 0.6s all ease-in-out;}
+
+    /* login page css */
+    .login_left{width: 70%; height: 100%; min-height: 100%;}
+    .login_left_Cont{padding: 0 60px; margin-top: 200px; margin: 120px auto;}
+    .login_right{width: 45%; height: 100vh;}
+    .login_right_cont{padding: 30px 20px;}
+    .signup_left{min-height: 100%;}
+    .login_wrapper .mainmenu-area .navbar .navbar-brand{margin-right: auto;}
+    .signup_left .sign_up_left_cont {min-height: 60vh;}
+    .signup_left .login_left_Cont div {margin-left: 30px;}
+    .sign-up-right .login_right_cont {padding: 25px 10px;}
+    .checkarea label {font-size: 14px;}
+    .login_right_cont .account_Area span {font-size: 12px;}
+    
+    /*extra 08 dec*/
+    
+    .profile_pf_Sec .col-lg-5:first-child{order:1;}
+    .Bank-detail-area {margin-top: 0px;}
+    
+    .leftenable {margin-left: -25% !important;background: transparent !important}
+    .hamburger-enable, .hamburger-disable{display: block; padding: 25px 15px; text-align: right;}
+    .hamburger-enable i, .hamburger-disable i{font-size: 28px;}
+    .flaticon-wallet:before,.flaticon-male-user-shadow:before,.flaticon-printer:before{font-size: 14px !important;}
+    .sidebar-nav li i {font-size: 16px;}
+    .sidebar-nav li span p {font-size: 16px;}
+    
+    .mainmenu-area .navbar .navbar-brand {width: 35%;}
+    .mainmenu-area .navbar .navbar-brand img {max-width: 180px;}
+    .user-drop-area {padding: 5px;}
+    .pf_dropdwn img {max-width: 15px; margin-left: 3px;}
+    .topbar_area_pf .nav-item .bars_pf i {font-size: 26px;}
+    .nav-item .pf_dropdwn i {margin-right: 5px;}
+    
+     /*/////// investment list /////*/
+    .invest-banner{min-height: 58vh;}
+    .investment_banner::before{border-bottom-right-radius: 150px;border-bottom-left-radius: 150px;height: 50vh;}
+    .investment_banner img {border-bottom-right-radius: 150px;border-bottom-left-radius: 150px;height: 50vh;}
+    .investment_Cont_Area {bottom: 20%;}
+    .backtodashboard{font-size: 16px; padding: 8px 15px;}
+    .Invest-Slider-card {margin-right: 10px;}
+    .slick-prev,.slick-next {display: none !important;}
+    
+    .single-investment_banner {min-height: 52vh;}
+    .farmswithicon {width: 95px;margin: auto; display:block;}
+    .friends-share {text-align: center; margin: 10px 0;}
+    .invest-share-area ul {text-align: center;}
+    .invest-percent h1 {font-size: 70px;text-align: center;}
+    .invest-percent h3 {text-align: center;margin: 15px 0 0;}
+    .single-gray-btn button {width: 60%;}
+}
+
+
+@media screen and (min-width:768px) and (max-width: 991px){
+    .topbar_area_pf .navbar{padding: 0;}
+    .navbar-light .navbar-toggler{display: none;}
+    .topbar_area_pf .nav-item span:first-child{font-size: 16px;}
+    .topbar_area_pf .nav-item{ display: inline-block;}
+    .showit{display: block !important; transition: display 0.3s ease-in-out;}
+    .navbar-nav{flex-direction: unset; float: right;}
+    .main_pf{background-size: cover; position: relative; min-height: 100%; padding-bottom: 30px;}
+
+     /* header css */
+     .navbar-collapse{flex-basis: auto;}
+     .pf_nav_item{margin-right: 0px;}
+     .topbar_area_pf .pf_nav_item{margin-left: 35px;}
+     .collapse:not(.show) {display: block;}
+     .pf-dropdown-menu{left: 0px; width: 100%; min-width: 320px;}
+
+     /* tab area css */
+    .pf_inner_tab_one{ position: relative; max-width: 100%; right: 12px;}
+    #wrapper { position: relative; width: 100%; height: 100%; display: block; }
+    .pf_tab_one { position: relative;  height: 100%; min-height: 100%; }
+    #sidebar-wrapper{position: absolute; max-height: 80vh;}
+
+    .pf_invest_cont{padding: 60px;}
+
+    /* referral css */
+    .code_share ul li{text-align: left !important; margin: 5px; width: auto;}
+    .pf_percent h2{text-align: left;}
+    .pf_percent h6{padding: 0;}
+
+    /* profile css */
+    .profile_pf_Sec{padding: 25px 20px;}
+
+    /* login page css */
+    .login_left{width: 70%;}
+    .login_wrapper .mainmenu-area .navbar .navbar-brand{margin-right: auto;}
+    .sign_up_left_cont{padding: 0 60px; min-height: 60vh !important;}
+    .signup_left{width: 70%; background-position: 50% 100%,0 0,50% 50%; height: 100vh;}
+    .forget-right{min-width: 40%;}
+    .sign-up-right{width: 42%; height: 100vh;}
+    .side_animation_wrapper {overflow-y: scroll;}
+    .checkarea label {font-size: 12px;}
+    .login_right_cont .account_Area span {font-size: 10px;}
+    .sign-up-right .login_right_cont {padding: 25px 15px;}
+    .sign_up_left_cont div{margin-left: 45px !important; margin-top: 0px !important;}
+    
+    .login_right_cont {padding: 20px 10px;}
+    .login_left_Cont{min-height: 60vh !important;}
+    
+    /*extra 08 dec*/
+    
+    .profile_pf_Sec .col-lg-5:first-child{order:1;}
+    .Bank-detail-area {margin-top: 0px;}
+    
+    .leftenable {margin-left: -47% !important;}
+    .hamburger-enable, .hamburger-disable{display: block; padding: 25px 15px; text-align: right;}
+    .hamburger-enable i, .hamburger-disable i{font-size: 28px;}
+    .flaticon-wallet:before,.flaticon-male-user-shadow:before,.flaticon-printer:before{font-size: 14px !important;}
+    .sidebar-nav li i {font-size: 16px;}
+    .sidebar-nav li span p {font-size: 16px;}
+    
+    .mainmenu-area .navbar .navbar-brand {width: 35%;}
+    .mainmenu-area .navbar .navbar-brand img {max-width: 180px;}
+    .user-drop-area {padding: 5px;}
+    .pf_dropdwn img {max-width: 15px; margin-left: 3px;}
+    .topbar_area_pf .nav-item .bars_pf i {font-size: 26px;}
+    .nav-item .pf_dropdwn i {margin-right: 5px;}
+    #wrapper {padding-left: 75px;}
+    /* sidebar css */
+
+    #sidebar-wrapper {overflow-y: hidden; width: 32%; position: fixed; margin-top: 60px; -webkit-transition: right .5s ease;transition: right .5s ease;background: #f0fffa; height: auto; min-height: 100%;}
+    .sidebar-nav{ width: 100%; border-radius: 0px; height: auto; min-height: 100%; margin-top: 70px;}
+    .sidebar-nav li{margin-left: 5px; margin-right:55px;}
+    .sidebar-nav .active{padding: 5px 0;}
+    .sidebar-nav li span{width: 100%; display:block;}
+    
+    
+    /*/////// investment list /////*/
+    .invest-banner{min-height: 58vh;}
+    .investment_banner::before{height: 50vh;}
+    .investment_banner img {height: 50vh;}
+    .investment_Cont_Area {bottom: 20%;}
+    .backtodashboard{font-size: 16px; padding: 8px 15px;}
+    .Invest-Slider-card {margin-right: 10px;}
+    .slick-prev,.slick-next {display: none !important;}
+    
+    .single-investment_banner {min-height: 52vh;}
+    .farmswithicon {width: 95px;margin: auto; display:block;}
+    .friends-share {text-align: center; margin: 10px 0;}
+    .invest-share-area ul {text-align: center;}
+    .invest-percent h1 {font-size: 70px;text-align: center;}
+    .invest-percent h3 {text-align: center;margin: 15px 0 0;}
+    .single-gray-btn button {width: 60%;}
+
+}
+
+
+
+
+@media screen and (min-width:992px) and (max-width: 1199px){
+    .topbar_area_pf .navbar{padding: 0;}
+    .navbar-light .navbar-toggler{display: none;}
+    .topbar_area_pf .nav-item span:first-child{font-size: 14px;}
+    .topbar_area_pf .nav-item{ display: inline-block;}
+    .showit{display: block !important; transition: display 0.3s ease-in-out;}
+    .navbar-nav{flex-direction: unset; float: right;}
+    .main_pf{background-size: cover; position: relative; min-height: 100%; padding-bottom: 30px;}
+
+     /* header css */
+     .navbar-collapse{flex-basis: auto;}
+     .pf_nav_item{margin-right: 0px;}
+     .topbar_area_pf .pf_nav_item span:first-child{display: contents;}
+     .topbar_area_pf .pf_nav_item{margin-left: 35px;}
+     .collapse:not(.show) {display: block;}
+     .pf-dropdown-menu{left: 0px; width: 100%; min-width: 320px;}
+
+     /* tab area css */
+    .pf_inner_tab_one{ position: relative; max-width: 100%; right: 12px;}
+    #wrapper { position: relative; width: 100%; height: 100%; display: block; }
+    .pf_tab_one { position: relative;  height: 100%; min-height: 100%; }
+    #sidebar-wrapper{position: absolute; max-height: 80vh;}
+
+    .pf_invest_cont{padding: 60px;}
+
+    /* referral css */
+    .code_share ul li{text-align: left !important; margin: 5px; width: auto;}
+    .pf_percent h2{text-align: left;}
+    .pf_percent h6{padding: 0;}
+
+    /* profile css */
+    .profile_pf_Sec{padding: 25px 20px;}
+
+    /* login page css */
+    .login_left{width: 58%;}
+    .login_wrapper .mainmenu-area .navbar .navbar-brand{margin-right: auto;}
+    .login_left_Cont{padding: 0 60px;}
+    .signup_left{width: 70%; background-position: 50% 100%,0 0,50% 50%; height: 100%;}
+    .forget-right{min-width: 40%;}
+    .login_right{width: 42%; height: 100vh;}
+    .checkarea label {font-size: 15px;}
+    .login_right_cont .account_Area span {font-size: 12px;}
+
+    /* tab btn ul li animation css */
+
+    
+    #pf_tab_one .pf_click_one {min-width: 71.5% !important; transition: min-width 0.5s ease-in-out 0s;  }
+    #pf_tab_two #pf_click_second_first{min-width: 35.7% !important; transition: min-width 0.5s ease-in-out 0s;}
+    #pf_tab_two #pf_click_second_second{min-width: 13.7% !important; transition: min-width 0.5s ease-in-out 0s;}
+    #pf_tab_two #pf_click_second_third{ min-width: 25.6% !important; transition: min-width 0.5s ease-in-out 0s;}
+    #pf_tab_two #pf_click_second_four{ min-width: 20.7% !important; transition: min-width 0.5s ease-in-out 0s;}
+    #pf_tab_three #pf_click_third_first{ min-width: 44.7% !important; transition: min-width 0.5s ease-in-out 0s;}
+    #pf_tab_three #pf_click_third_second{ min-width: 28.7% !important; transition: min-width 0.5s ease-in-out 0s;}
+    #pf_tab_three #pf_click_third_third{ min-width: 25.7% !important; transition: min-width 0.5s ease-in-out 0s;}
+    
+     /*/////// investment list /////*/
+    .invest-banner{min-height: 58vh;}
+    .investment_banner::before{height: 45vh;}
+    .investment_banner img {height: 45vh;}
+    .investment_Cont_Area {bottom: 30%;}
+    .backtodashboard{font-size: 16px; padding: 8px 15px;}
+    .Invest-Slider-card {margin-right: 10px;}
+    .slick-prev,.slick-next {display: none !important;}
+    
+    .single-investment_banner {min-height: 45vh;}
+    .farmswithicon {width: 95px;margin: auto; display:block;}
+    .invest-share-area ul {text-align: center;}
+    .invest-percent h1 {font-size: 70px;text-align: center;}
+    .invest-percent h3 {text-align: center;margin: 15px 0 0;}
+    .single-gray-btn button {width: 60%;}
+}
+
+
+@media screen and (min-width:1200px) and (max-width: 1300){
+    .topbar_area_pf .navbar{padding: 0;}
+    .navbar-light .navbar-toggler{display: none;}
+    .topbar_area_pf .nav-item span:first-child{font-size: 14px;}
+    .topbar_area_pf .nav-item{ display: inline-block;}
+    .showit{display: block !important; transition: display 0.3s ease-in-out;}
+    .navbar-nav{flex-direction: unset; float: right;}
+    .main_pf{background-size: cover; position: relative; min-height: 100%; padding-bottom: 30px;}
+
+     /* header css */
+     .navbar-collapse{flex-basis: auto;}
+     .pf_nav_item{margin-right: 0px;}
+     .topbar_area_pf .pf_nav_item span:first-child{display: contents;}
+     .topbar_area_pf .pf_nav_item{margin-left: 35px;}
+     .collapse:not(.show) {display: block;}
+     .pf-dropdown-menu{left: 0px; width: 100%; min-width: 320px;}
+
+     /* tab area css */
+    .pf_inner_tab_one{ position: relative; max-width: 100%; right: 12px;}
+    #wrapper { position: relative; width: 100%; height: 100%; display: block; }
+    .pf_tab_one { position: relative;  height: 100%; min-height: 100%; }
+    #sidebar-wrapper{position: absolute; max-height: 80vh;}
+
+    .pf_invest_cont{padding: 60px;}
+
+    /* referral css */
+    .code_share ul li{text-align: left !important; margin: 5px; width: auto;}
+    .pf_percent h2{text-align: left;}
+    .pf_percent h6{padding: 0;}
+
+    /* profile css */
+    .profile_pf_Sec{padding: 25px 20px;}
+
+    /* login page css */
+    .login_left{width: 58%;}
+    .login_wrapper .mainmenu-area .navbar .navbar-brand{margin-right: auto;}
+    .login_left_Cont{padding: 0 60px;}
+    .signup_left{width: 58%; background-position: 50% 100%,0 0,50% 50%; height: 145vh;}
+    .forget-right{min-width: 40%;}
+    .login_right{width: 42%; height: 145vh;}
+
+    /* tab btn ul li animation css */
+
+    
+    #pf_tab_one .pf_click_one {min-width: 71.5% !important; transition: min-width 0.5s ease-in-out 0s;  }
+    #pf_tab_two #pf_click_second_first{min-width: 35.7% !important; transition: min-width 0.5s ease-in-out 0s;}
+    #pf_tab_two #pf_click_second_second{min-width: 13.7% !important; transition: min-width 0.5s ease-in-out 0s;}
+    #pf_tab_two #pf_click_second_third{ min-width: 25.6% !important; transition: min-width 0.5s ease-in-out 0s;}
+    #pf_tab_two #pf_click_second_four{ min-width: 20.7% !important; transition: min-width 0.5s ease-in-out 0s;}
+    #pf_tab_three #pf_click_third_first{ min-width: 44.7% !important; transition: min-width 0.5s ease-in-out 0s;}
+    #pf_tab_three #pf_click_third_second{ min-width: 28.7% !important; transition: min-width 0.5s ease-in-out 0s;}
+    #pf_tab_three #pf_click_third_third{ min-width: 25.7% !important; transition: min-width 0.5s ease-in-out 0s;}
+}
+
+
+@media screen and (min-width:350px) and (max-width: 480px){
+    .topbar_area_pf .nav-item span:first-child {
+    font-size: 12px;}
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px){
+    /*.container {*/
+    /*width: 100%;*/
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+    /*margin-right: auto;*/
+    /*margin-left: 30px;*/
+    /*}*/
+    
+    .add_fund_wallet{font-size: 15px !important;}
+    .add_fund_wallet h6{font-size: 10px; font-weight:400;}
+    
+    .pay-out{font-size: 15px !important;}
+    .pay-out h6{font-size: 10px; font-weight:400;}
+    
+    
+.pf_btn {
+    color: #8dc63f;
+    min-width: 150px;
+    padding-top: 15px;
+    border-radius: 5px;
+    font-family: "Roboto",sans-serif;
+    line-height: 10px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.leftenable {
+    margin-left: -49% !important;
+}
+
+}
+
+

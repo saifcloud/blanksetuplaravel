@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phresh Farms</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="stylesheet" href="assets/css/flaticon.css">
+	<link rel="stylesheet" href="assets/css/plugin.css">
+	<!-- Plugin css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	
+	<div class="main_pf">
+	
+    <div class="mainmenu-area topbar_area_pf" style="padding: 15px 0">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">                 
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<a class="navbar-brand" href="index.html">
+							<h3>
+								<img src="assets/images/phreshfarm_img/Logo.png" alt="">
+							 </h3>
+						</a>
+						
+						<div class="collapse navbar-collapse fixed-height" id="main_menu">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item pf_nav_item">
+									<!-- <a href="register.php" class="base-btn2"> Sign up</a> -->
+									<span>Welcome, Precious (PSU5910)</span> 
+									<span class="pf_dropdwn"><img src="assets/images/phreshfarm_img/dummy.png" alt="">
+										<i class="fa fa-angle-down" aria-hidden="true" data-toggle="dropdown"
+										aria-haspopup="true"></i>
+									</span>
+									<div class="dropdown-menu pf-dropdown-menu">
+									<a class="dropdown-item" href="#">Go to Homepage</a>
+									<a class="dropdown-item" href="#">Change Password</a>
+									<a class="dropdown-item" href="login.html">Log out</a>
+									</div>
+								</li>
+								
+								<li class="nav-item" id="toggler_pf">
+									<span class="bars_pf"><i class="fa fa-bars" aria-hidden="true"></i></span>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //////// sidebar wrapper //////// -->
+
+	<div id="sidebar-wrapper">
+		<ul class="sidebar-nav">
+			<li class="nav-item active" id="tab_one">
+				<span>
+					<i class="fa fa-home" aria-hidden="true"></i>
+				<p>My Portfolio</p>
+				</span>
+			</li>
+			
+			<li class="nav-item" id="tab_two">
+				<span>
+				<i class="flaticon-wallet"></i>
+				<p>Wallet</p>
+				</span>
+			</li>
+			
+			<li class="nav-item" id="tab_three">
+				<span>
+					<i class="flaticon-referral"></i>
+				<p>Referrals</p>
+				</span>
+			</li>
+		
+			<li class="nav-item" id="tab_four">
+				<span>
+					<i class="flaticon-male-user-shadow"></i>
+				<p>Profile</p>
+				</span>
+			</li>
+			
+			<li class="nav-item" id="tab_five">
+				<span>
+					<i class="flaticon-printer"></i>
+				<p>Print investment history</p>
+				</span>
+			</li>
+
+		</ul>
+	</div>
+
+
+
+	<!-- ////////////// page content wrapper ///////////// -->
+
+	<div id="wrapper" class="pf_wrapper">
+		<div class="page-content-wrapper">
+		<section class="content-area">
+		   <div class="container">
+			   
+<!-- /////////////////////////////////////////////// new tab area start here (first) ///////////////////////////////////////////// -->
+
+			   <!-- this tab for portfolio page -->
+			  <div class="pf_tab_one" id="pf_tab_one">
+
+				<ul>
+					<li class="pf_click_one pf_active" style="transition: min-width 0.5s ease-in-out 0s;">
+						<span>Current Investment</span>
+					</li>
+					<li class="pf_click_two" style="transition: min-width 0.5s ease-in-out 0s;">
+						<span>Investment History</span>
+					</li>
+				</ul>
+
+				<div class="pf_inner_tab_one" id="pf_inner_one">
+				
+					<div class="row">
+						<div class="col-lg-8">
+							<div class="pf_invest_cont">
+								<div>
+									<h5>You have no current investments</h5>
+								<button type="button" class="btn pf_btn">
+									MAKE INVESTMENT
+								</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+							<div class="pf_invest_top">
+								<h5>Investment amount</h5>
+								<p>₦ 0.00</p>
+							</div>
+							<div class="pf_invest_top pf_invest_bottom">
+								<h5>Return on investment</h5>
+								<span>₦ 0.00</span>
+								<div>
+									<button type="button" class="btn pf_btn">
+										NEW INVESTMENT
+									</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					
+				</div>
+				<div class="pf_inner_tab_one" id="pf_inner_two">
+				
+					<div class="row">
+						<div class="col-lg-8">
+							<div class="pf_invest_cont">
+								<div>
+									<h5 style="padding: 0 20px;">You have made no investments yet</h5>
+								<button type="button" class="btn pf_btn">
+									MAKE INVESTMENT
+								</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+							<div class="pf_invest_top">
+								<h5>Total Investment amount</h5>
+								<p>₦ 0.00</p>
+							</div>
+							<div class="pf_invest_top pf_invest_bottom">
+								<h5>Total Return on investment</h5>
+								<span>₦ 0.00</span>
+								<div>
+									<button type="button" class="btn pf_btn">
+										NEW INVESTMENT
+									</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					
+				</div>
+
+			  </div>
+			  <!-- end this tab -->
+
+<!-- /////////////////////////////////////////////// new tab area start here (second) ///////////////////////////////////////////// -->
+
+			  <!-- this tab for wallet page -->
+			<div class="pf_tab_one" id="pf_tab_two">
+				<ul>
+					<li class="pf_click_second pf_active" id="pf_click_second_first" style="transition: min-width 0.5s ease-in-out 0s;">
+						<span>Transaction</span>
+					</li>
+					<li class="pf_click_second"  id="pf_click_second_second" style="transition: min-width 0.5s ease-in-out 0s;">
+						<span>Funding</span>
+					</li>
+					<li class="pf_click_second" id="pf_click_second_third" style="transition: min-width 0.5s ease-in-out 0s;">
+						<span>Investment Payout</span>
+					</li>
+					<li class="pf_click_second" id="pf_click_second_four" style="transition: min-width 0.5s ease-in-out 0s;">
+						<span>Wallet Payout</span>
+					</li>
+				
+				</ul>
+
+				<!-- for Transaction tab -->
+				<div class="pf_inner_tab_one" id="pf_inner_one_second">
+					<div class="row">
+						<div class="col-lg-8">
+							<div class="one_second_cont">
+								<div>
+									<h5>Fund wallet via bank transfer</h5>
+								<p>You can now fund your wallet by simply making a bank or online transfer to a unique account number.</p>
+								<button type="button" class="btn pf_btn">
+									GENERATE ACCOUNT NUMBER
+								</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+							<div class="pf_invest_top second_invest_top">
+								<h5>Wallet<br>Balance</h5>
+								<span>Withdrawable: ₦ 0.00</span>
+								<span>Non withdrawable: ₦ 0.00</span>
+								<p style="color: #fff;">₦ 0.00</p>
+								<div style="text-align: center;">
+									<button type="button" class="btn pf_btn" style="background: #fff; margin-bottom: 5px;">
+										FUND WALLET
+									</button>
+									<button type="button" class="btn pf_btn">
+										REQUEST PAYOUT
+									</button>
+								</div>
+							</div>
+							<div class="pf_invest_top second_invest_bottom" style="background: #2bb673;">
+								<h5>Total Payout</h5>
+								<div style="z-index: 1; position: relative; padding-top: 30px;">
+								<span style="color: #fff; font-size: 18px; font-family: 'poppins'; font-weight: 600;">₦ 0.00</span>
+								<p style="margin-bottom: 10px; margin-top: 0; color: #f9f9f9; font-size: 12px;">last payout</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- for Funding tab -->
+				<div class="pf_inner_tab_one" id="pf_inner_two_second">
+				
+						<div class="row">
+						<div class="col-lg-8">
+							<div class="pf_invest_cont" style="min-height: 380px;">
+								
+							</div>
+							<div style="border-top: 1px solid #ccc; padding: 10px 0 ;">
+								<p style="color: #555; font-size: 10px; font-family: 'poppins'; text-align: right; margin: 0;">
+									All payments made directly (as card/online/cash transfers from the farm & commodity page or as reinvestments from a complete investment) would not show up here. Please check the “Transactions” tab for direct payments. Only payments made into the wallet would show up here.
+								</p>
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+							<div class="pf_invest_top second_invest_top">
+								<h5>Wallet<br>Balance</h5>
+								<span>Withdrawable: ₦ 0.00</span>
+								<span>Non withdrawable: ₦ 0.00</span>
+								<p style="color: #fff;">₦ 0.00</p>
+								<div style="text-align: center;">
+									<button type="button" class="btn pf_btn" style="background: #fff; margin-bottom: 5px;">
+										FUND WALLET
+									</button>
+									<button type="button" class="btn pf_btn">
+										REQUEST PAYOUT
+									</button>
+								</div>
+							</div>
+							<div class="pf_invest_top second_invest_bottom" style="background: #2bb673;">
+								<h5>Total Payout</h5>
+								<div style="z-index: 1; position: relative; padding-top: 30px;">
+								<span style="color: #fff; font-size: 18px; font-family: 'poppins'; font-weight: 600;">₦ 0.00</span>
+								<p style="margin-bottom: 10px; margin-top: 0; color: #f9f9f9; font-size: 12px;">last payout</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					
+				</div>
+
+				<!-- for Investment payout -->
+				<div class="pf_inner_tab_one" id="pf_inner_three_second">
+				
+					<div class="row">
+					<div class="col-lg-8">
+						<div class="pf_invest_cont" style="min-height: 380px;">
+							
+						</div>
+						<div style="border-top: 1px solid #ccc; padding: 10px 0 ;">
+							<p style="color: #555; font-size: 10px; font-family: 'poppins'; text-align: right; margin: 0;">
+								All payments made directly (as card/online/cash transfers from the farm & commodity page or as reinvestments from a complete investment) would not show up here. Please check the “Transactions” tab for direct payments. Only payments made into the wallet would show up here.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="pf_invest_top second_invest_top">
+							<h5>Wallet<br>Balance</h5>
+							<span>Withdrawable: ₦ 0.00</span>
+							<span>Non withdrawable: ₦ 0.00</span>
+							<p style="color: #fff;">₦ 0.00</p>
+							<div style="text-align: center;">
+								<button type="button" class="btn pf_btn" style="background: #fff; margin-bottom: 5px;">
+									FUND WALLET
+								</button>
+								<button type="button" class="btn pf_btn">
+									REQUEST PAYOUT
+								</button>
+							</div>
+						</div>
+						<div class="pf_invest_top second_invest_bottom" style="background: #2bb673;">
+							<h5>Total Payout</h5>
+							<div style="z-index: 1; position: relative; padding-top: 30px;">
+							<span style="color: #fff; font-size: 18px; font-family: 'poppins'; font-weight: 600;">₦ 0.00</span>
+							<p style="margin-bottom: 10px; margin-top: 0; color: #f9f9f9; font-size: 12px;">last payout</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				
+			</div>
+
+			<!-- for wallet payout tab -->
+			<div class="pf_inner_tab_one" id="pf_inner_four_second">
+				
+				<div class="row">
+				<div class="col-lg-8">
+					<div class="pf_invest_cont" style="min-height: 380px;">
+						
+					</div>
+					<div style="border-top: 1px solid #ccc; padding: 10px 0 ;">
+						<p style="color: #555; font-size: 10px; font-family: 'poppins'; text-align: right; margin: 0;">
+							All payments made directly (as card/online/cash transfers from the farm & commodity page or as reinvestments from a complete investment) would not show up here. Please check the “Transactions” tab for direct payments. Only payments made into the wallet would show up here.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="pf_invest_top second_invest_top">
+						<h5>Wallet<br>Balance</h5>
+						<span>Withdrawable: ₦ 0.00</span>
+						<span>Non withdrawable: ₦ 0.00</span>
+						<p style="color: #fff;">₦ 0.00</p>
+						<div style="text-align: center;">
+							<button type="button" class="btn pf_btn" style="background: #fff; margin-bottom: 5px;">
+								FUND WALLET
+							</button>
+							<button type="button" class="btn pf_btn">
+								REQUEST PAYOUT
+							</button>
+						</div>
+					</div>
+					<div class="pf_invest_top second_invest_bottom" style="background: #2bb673;">
+						<h5>Total Payout</h5>
+						<div style="z-index: 1; position: relative; padding-top: 30px;">
+						<span style="color: #fff; font-size: 18px; font-family: 'poppins'; font-weight: 600;">₦ 0.00</span>
+						<p style="margin-bottom: 10px; margin-top: 0; color: #f9f9f9; font-size: 12px;">last payout</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
+
+
+			</div>
+			<!-- end this tab -->
+
+<!-- /////////////////////////////////////////////// new tab area start here (third) ///////////////////////////////////////////// -->
+
+			<!-- this tab for Referral page -->
+			<div class="pf_tab_one" id="pf_tab_three">
+				<ul>
+					<li class="pf_click_second pf_active" id="pf_click_third_first" style="transition: min-width 0.5s ease-in-out 0s;">
+						<span>Invite Friends</span>
+					</li>
+					<li class="pf_click_second"  id="pf_click_third_second" style="transition: min-width 0.5s ease-in-out 0s;">
+						<span>Redeemed referrals</span>
+					</li>
+					<li class="pf_click_second" id="pf_click_third_third" style="transition: min-width 0.5s ease-in-out 0s;">
+						<span>Pending referrals</span>
+					</li>
+				</ul>
+
+				<!-- tab for invite friend -->
+				<div class="pf_inner_tab_one" id="pf_inner_one_three">
+					<div class="row">
+						<div class="col-lg-8">
+							<form action="" class="pd-form">
+								<div class="row">
+									<div class="col-lg-9">
+										<div class="form-group">
+											<h6>Referral code: <span>PSU5910</span></h6>
+										</div>
+									</div>
+									<div class="col-lg-3">
+										<div class="form-group">
+											<button type="button" class="btn pf_btn">COPY CODE</button>
+										</div>
+									</div>
+								</div>
+							</form>
+							
+							<div class="code_share">
+								<h4>Share code</h4>
+								<ul>
+									<li><span style="border-color: #0e76a8; color: #0e76a8;"><i class="fab fa-linkedin-in"></i> Linkedin</span></li>
+									<li><span style="color: #00acee; border-color: #00acee;"><i class="fab fa-twitter"></i> Twitter</span></li>
+									<li><span style="color: #3b5998; border-color: #3b5998;"><i class="fab fa-facebook-f"></i> Facebook</span></li>
+									<li><span style="color: #20de13; border-color: #20de13;"><i class="fab fa-whatsapp"></i> Whatsapp</span></li>
+								</ul>
+							</div>
+
+							<div class="pf_percent">
+								<div class="row" style="border-bottom: 2px solid #999;">
+									<div class="col-lg-2">
+										<p>GET</p>
+										<h2>2.5%</h2>
+									</div>
+									<div class="col-lg-10">
+										<h6>of your invite’s first<br>
+											investment on the platform.</h6>
+									</div>
+								</div>
+							</div>
+
+							<div class="pf_referal_btm">
+								<p>They should use the referral code upon signup</p>
+							</div>
+
+						</div>
+
+						<div class="col-lg-4">
+							<div class="pf_invest_top referral_invite_side">
+								<h5>Redeemed<br> referrals</h5>
+								<p>Non withdrawable.<br>
+									To be spent on the platform on an investment</p>
+								<h5>₦ 0.00</h5>
+							</div>
+							<div class="pf_invest_top pf_invest_bottom referral_invite_side">
+								<h5>Pending<br>
+									referrals</h5>
+									<p>Would be available for use when your invites make their first investment</p>
+								<h5>0</h5>
+								<div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- tab for redeemed  -->
+				<div class="pf_inner_tab_one" id="pf_inner_two_three">
+				
+					<div class="row">
+					<div class="col-lg-8">
+						<div class="pf_invest_cont" style="min-height: 420px;">
+							
+						</div>
+						
+					</div>
+
+					<div class="col-lg-4">
+						<div class="pf_invest_top referral_invite_side">
+							<h5>Redeemed<br> referrals</h5>
+							<p>Non withdrawable.<br>
+								To be spent on the platform on an investment</p>
+							<h5>₦ 0.00</h5>
+						</div>
+						<div class="pf_invest_top pf_invest_bottom referral_invite_side">
+							<h5>Pending<br>
+								referrals</h5>
+								<p>Would be available for use when your invites make their first investment</p>
+							<h5>0</h5>
+							<div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+			<!-- tab for pending referral -->
+			<div class="pf_inner_tab_one" id="pf_inner_three_three">
+				
+				<div class="row">
+				<div class="col-lg-8">
+					<div class="pf_invest_cont" style="min-height: 420px;">
+						
+					</div>
+					
+				</div>
+
+				<div class="col-lg-4">
+					<div class="pf_invest_top referral_invite_side">
+						<h5>Redeemed<br> referrals</h5>
+						<p>Non withdrawable.<br>
+							To be spent on the platform on an investment</p>
+						<h5>₦ 0.00</h5>
+					</div>
+					<div class="pf_invest_top pf_invest_bottom referral_invite_side">
+						<h5>Pending<br>
+							referrals</h5>
+							<p>Would be available for use when your invites make their first investment</p>
+						<h5>0</h5>
+						<div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+
+		
+			</div>
+			<!-- end this tab -->
+
+<!-- /////////////////////////////////////////////// new tab area start here (four) ///////////////////////////////////////////// -->
+
+			<!-- this tab for Profile page -->
+			<div class="pf_tab_one" id="pf_tab_four">
+				<ul>
+					<li class="pf_click_second pf_active" id="pf_click_second_first">
+						<span>Profile</span>
+					</li>
+				</ul>
+
+				<!-- tab for invite friend -->
+				<div class="pf_inner_tab_one" id="pf_inner_one_second">
+					<form action="" class="profile_pf_Sec">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="profile-img">
+								<!-- User Profile Image -->
+								<img class="profile-pic" src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg">
+							 
+							</div>
+						<div class="p-image"> <i class="fa fa-camera upload-button"></i>
+							<input class="file-upload" type="file" name="image" accept="image/*">
+						</div>
+						</div>
+						<div class="col-lg-6">
+							<h3>Basic Info</h3>
+							<div class="form-group">
+								<label for="">Full name</label>
+								<input type="text" class="form-control" placeholder="Enter Name">
+							</div>
+
+							<div class="form-group">
+								<label for="">Email</label>
+								<input type="email" class="form-control" placeholder="Enter Email">
+							</div>
+
+							<div class="form-group">
+								<label for="">Phone Number</label>
+								<input type="number" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<label for="">Date of Birth</label>
+								<input type="date" class="form-control">
+							</div>
+						
+							<div class="form-group">
+								<button type="button" class="pf_btn" style="background: #8dc63f; color: #fff; border-color: #8dc63f; border: none;">SAVE CHANGES</button>
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<h3>Bank Account</h3>
+							<div class="form-group">
+								<label for="">Account Number</label>
+								<input type="number" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<label for="">Bank Name</label>
+								
+								<select name="bank" id="bank" class="form-control">
+									<option value="" select disabled>--select Bank--</option>
+									<option value="">ABC Bank</option>
+									<option value="">XYZ Bank</option>
+									<option value="">MNO Bank</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<label for="">Bank Acount Name</label>
+								<input type="text" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<label for="">Bank Verification Number</label>
+								<input type="number" class="form-control">
+							</div>
+						
+							<div class="form-group">
+								<button type="button" class="pf_btn" style="background: #8dc63f; color: #fff; border-color: #8dc63f; border: none;">SAVE CHANGES</button>
+							</div>
+
+							<div class="pf_referal_btm pf_profile_btm">
+								<p>Any change/update made to your account details, would not reflect immediately. We would put you through a verification process for your account security, before said change would be reflected.</p>
+							</div>
+						</div>
+
+					</div>
+				</form>
+				</div>
+
+			</div>
+			<!-- end this tab -->
+
+<!-- /////////////////////////////////////////////// new tab area start here (fifth) ///////////////////////////////////////////// -->
+
+			<!-- this tab for Print investment history page -->
+			<div class="pf_tab_one" id="pf_tab_five">
+				<ul>
+					<li class="pf_click_second pf_active" id="pf_click_second_first">
+						<span>Investment Document</span>
+					</li>
+				</ul>
+
+				<div class="pf_inner_tab_one pf_inv_history_Sec" id="pf_inner_one_second">
+					<div class="row">
+						<div class="col-lg-5">
+							<div class="one_second_cont pf_invest_history">
+								<h5>Print Current
+									Investment Certificate</h5>
+								<p>This could be used as proof of investment anywhere</p>
+								
+							</div>
+						</div>
+
+						<div class="col-lg-7">
+							<div class="one_second_cont pf_invest_history">
+								<h5>Print
+									Investment History</h5>
+								
+								<button type="button" class="btn pf_btn">
+									Print History
+								</button>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+
+			</div>
+			<!-- end this tab -->
+
+		   </div>
+	 </section>
+	</div>
+	 </div>
+
+<!-- /// main pf //// -->
+
+<div class="side_animation_wrapper moved" id="sideout">
+	<div class="sidemenu_cancel">
+		<a href="#">
+			<img src="assets/images/phreshfarm_img/cancel.png" alt="">
+		</a>
+	</div>
+	<div class="side_menu_list">
+		<ul>
+			<li>
+				<a href="#">Home</a>
+				<span class="rj"></span>
+			</li>
+			<li>
+				<a href="#">About</a>
+				<span class="rj"></span>
+			</li>
+			<li>
+				<a href="#">Why Phresh Farm</a>
+				<span class="rj"></span>
+			</li>
+			<li>
+				<a href="#">investments</a>
+				<span class="rj"></span>
+			</li>
+			<li>
+				<a href="#">faq</a>
+				<span class="rj"></span>
+			</li>
+			<li>
+				<a href="#">help desk</a>
+				<span class="rj"></span>
+			</li>
+		</ul>
+	</div>
+		<div class="bottom_side_info">
+			<ul>
+				<li>
+					<a href="#">123-456-789-0</a>
+				</li>
+				<li>
+					<a href="#">123-456-789-0</a>
+				</li>
+				<li>
+					<a href="#">123-456-789-0</a>
+				</li>
+				<li>
+					<a href="#">info@phreshfarm.com</a>
+				</li>
+			</ul>
+		</div>
+		<div class="side_pf_copyright">
+			<p>© 2020 Phresh Farm. All Rights Reserved</p>
+		</div>
+	
+</div>
+
+</div>
+
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+</body>
+</html>
